@@ -8,6 +8,11 @@
 
     }
 
+    @font-face {
+        font-family: 'Work Sans';
+        src: url('/fonts/WorkSans/WorkSans-Regular.otf') format("opentype");
+    }
+
 
 
 </style>
