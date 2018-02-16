@@ -8,6 +8,10 @@
         width: 160px !important;
     }
 
+    .page-footer{
+        background: #f8ee69;
+    }
+
 </style>
 <script>
         import $ from 'jquery'
