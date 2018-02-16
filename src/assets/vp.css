@@ -1,0 +1,70 @@
+.vp-yellow{
+    background: #F8EE69;
+}
+
+.vp-button{
+    font-size: 20px;
+    font-family: "Work Sans";
+    font-weight: normal;
+    background: black;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+nav{
+}
+
+.portfolio{
+    background-color:#838AA4;
+}
+
+.caption .row{
+    margin-top: 50px;
+}
+
+.carousel.carousel-slider .carousel-item p {
+    font-size: 24px !important;
+}
+
+@media (max-width: 640px) {
+
+    .carousel.carousel-slider .carousel-item p {
+        font-size: 14px !important;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 1080px) {
+
+    .carousel.carousel-slider .carousel-item p {
+        font-size: 20px !important;
+    }
+}
+
+
+
+.caption{
+    padding-top: 80px;
+}
+
+.carousel.carousel-slider .carousel-fixed-item.with-indicators{
+    bottom: 320px !important;
+}
+
+.slider .slides li .caption p{
+    color: black !important;
+}
+
+.lego{
+    width: 230px !important;
+    height: 384px !important;
+}
+
+.slider .indicators .indicator-item.active{
+    background-color: black !important;
+}
+
+.carousel .indicators .indicator-item.active{
+    background-color: black !important;
+}

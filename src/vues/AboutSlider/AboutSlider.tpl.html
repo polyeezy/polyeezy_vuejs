@@ -1,0 +1,5 @@
+<div id="human-being" class="carousel-item white-text scrollspy">
+    <div class="carousel carousel-slider center z-depth-2" data-indicators="true">
+        <AboutSlide v-for="(slide, index) in slides.data" :key="slide.button" :button="slide.button" :lego="legos[index]" :text="slide.text"></AboutSlide>
+    </div>
+</div>

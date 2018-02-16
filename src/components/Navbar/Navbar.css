@@ -1,0 +1,7 @@
+nav{
+    background: #F8EE69 !important;
+}
+
+#sidenav-overlay {
+    z-index: 996;
+}

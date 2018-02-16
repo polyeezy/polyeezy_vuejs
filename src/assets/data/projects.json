@@ -1,0 +1,180 @@
+{
+  "projects": [
+    {
+      "title": "Valérian Polizzi - Portfolio",
+      "theme": "WEB",
+      "year": "2018",
+      "link": "#",
+      "desc": "This website right here.",
+      "tags" : ["HTML", "CSS", "JAVASCRIPT", "VUEJS", "MATERIALIZECSS"]
+    },
+    {
+      "title": "Streetr - Landing Page",
+      "theme": "PROTO",
+      "year": "2018",
+      "link": "",
+      "desc": "Streetr landing page",
+      "tags" : ["HTML", "CSS", "JAVASCRIPT", "MATERIALIZECSS"]
+
+    },
+    {
+      "title": "Streetr - Prototype",
+      "theme": "PROTO",
+      "year": "2018",
+      "link": "https://marvelapp.com/a9i0jje",
+      "image": "http://workflow.valerianpolizzi.fr/assets/img/streetr-proto.png",
+      "desc": "An interactive application prototype made with Marvel and Sketch",
+      "tags" : ["SKETCH", "MARVEL"]
+
+    },
+    {
+      "title": "Barde WebApp",
+      "theme": "WEB",
+      "year": "2018",
+    "link": "",
+      "image": "http://workflow.valerianpolizzi.fr/assets/img/barde-webapp.png",
+      "desc": "Barde web player application",
+      "tags" : ["HTML", "CSS", "VUEJS", "MATERIALIZECSS"]
+    },
+    {
+      "title": "Instant System Internship Report",
+      "theme": "PPT",
+      "year": "2018",
+      "link": "https://www.slideshare.net/ValrianPOLIZZI/soutance-stage-tek3-valerian-polizzi-2017",
+      "image": "http://workflow.valerianpolizzi.fr/assets/img/is-report.png",
+      "desc": "An oral report for my second internship in Epitech",
+      "tags" : ["POWERPOINT", "PITCH"]
+
+    },
+    {
+      "title": "Covoit83",
+      "theme": "WEB",
+      "year": "2017",
+      "link": "https://covoit83.fr",
+      "image": "http://workflow.valerianpolizzi.fr/assets/img/covoit.png",
+      "desc": "My internship was initially to migrate a carpooling site developed in TYPO3 to wordpress. This migration involves the integration of a graphic chart and the development of an administrator interface.",
+      "tags" : ["HTML", "CSS", "WORDPRESS THEME", "WORDPRESS PLUGIN", "SWAGGER", "KIBANA", "JENKINS"]
+
+    },
+    {
+      "title": "R'pro'Covoiturage",
+      "theme": "WEB",
+      "year": "2017",
+      "link": "https://rprocovoiturage.boogi.fr/",
+      "image": "http://workflow.valerianpolizzi.fr/assets/img/rpro.png",
+      "desc": "My internship was initially to migrate a carpooling site developed in TYPO3 to wordpress. This migration involves the integration of a graphic chart and the development of an administrator interface.",
+      "tags" : ["HTML", "CSS", "WORDPRESS THEME", "WORDPRESS PLUGIN"]
+
+    },
+    {
+      "title": "Comparatif Assurance",
+      "theme": "WEB",
+      "year": "2017",
+      "link": "",
+      "image": "http://workflow.valerianpolizzi.fr/assets/img/comparatif.png",
+      "desc": "",
+      "tags" : ["HTML", "CSS", "ANGULAR2"]
+
+    },
+    {
+      "title": "Barde.io",
+      "theme": "WEB",
+      "year": "2018",
+      "link": "http://www.barde.io",
+      "image": "http://workflow.valerianpolizzi.fr/assets/img/bardeio.png",
+      "desc": "In order to preempt our EIP (Epitech Innovate Project), I realized the site www.barde.io by complying with a graphic charter.Developed with the AngularJs framework, this showcase includes integrations allowing registration to a newletter and a contact form protected by a Captcha system.",
+      "tags" : ["HTML", "CSS", "ANGULAR2", "MATERIALIZECSS"]
+
+    },
+    {
+      "title": "ProLinked",
+      "theme": "WEB",
+      "year": "2016",
+      "link": "http://prolinked.fr/",
+      "image": "http://workflow.valerianpolizzi.fr/assets/img/prolinked.png",
+      "desc": "In order to materialize the idea of two business school students, I initially realized a pre-launch page of the service. Subsequently, I was able to create an authentication system (Registration, login, profile management) combined with a system of SMS verification and automated e-mail sending.",
+      "tags" : ["HTML", "CSS", "PHP", "API", "SMS"]
+
+    },
+    {
+      "title": "Stock Manager",
+      "theme": "WEB",
+      "year": "2016",
+      "link": "http://workflow.valerianpolizzi.fr/web/stock_material",
+      "image": "http://workflow.valerianpolizzi.fr/assets/img/stock-manager.png",
+      "desc": "Having contributed to a Hackathon organized by Epitech, my role was to create a tool to facilitate the management of stock within a fire station. With this solution, the user can dynamically add and remove an object from a database and have an overview of the current stock.",
+      "tags" : ["HTML", "CSS", "ANGULAR2", "MATERIALIZECSS"]
+
+    },
+    {
+      "title": "Sochic Bijoux - Report",
+      "theme": "PPT",
+      "year": "2016",
+      "link": "https://fr.slideshare.net/ValrianPOLIZZI/soutenance-stage-epitech-valrian-polizzi-zipa",
+      "image": "http://workflow.valerianpolizzi.fr/assets/img/report-sochic.png",
+      "desc": "",
+      "tags" : ["POWERPOINT", "PITCH"]
+
+    },
+    {
+      "title": "Sochic Bijoux",
+      "theme": "WEB",
+      "year": "2016",
+      "link": "http://sochicbijoux.com/",
+      "image": "http://workflow.valerianpolizzi.fr/assets/img/sochic.png",
+      "desc": "The first part of my 2nd year internship at EPITECH consisted of optimizing the daily update of elements in a database. Subsequently, I was able to completely rebuild an e-commerce website. The front end includes authentication, display of products in their categories, presentation of a retail item, addition to the shopping cart and integration of a payment module. For the back-end part, I was able to develop a module for generating invoices and a voucher system, allowing to change the status of orders made on the site (Sent / Paid / Shipped ..)",
+      "tags" : ["HTML", "CSS", "PHP", "BOOTSTRAP", "MYSQL"]
+
+    },
+    {
+      "title": "KanyeToTheBruh",
+      "theme": "WEB",
+      "year": "2015",
+      "link": "",
+      "image": "http://workflow.valerianpolizzi.fr/web/KanyeToTheBruh/screenshot.png",
+      "desc": "",
+      "tags" : ["HTML", "CSS", "JAVASCRIPT"]
+
+    },
+    {
+      "title": "Social Closet",
+      "theme": "WEB",
+      "year": "2014",
+      "link": "",
+      "image": "http://workflow.valerianpolizzi.fr/web/sliding-closet/screenshot.png",
+      "desc": "",
+      "tags" : ["HTML", "CSS", "JAVASCRIPT"]
+
+    },
+    {
+      "title": "Polyeezy - Intro",
+      "theme": "VIDEO",
+      "year": "2014",
+      "link": "https://www.youtube.com/watch?v=KSj8x77fkcA",
+      "image": "http://workflow.valerianpolizzi.fr/assets/img/polyeezy.png",
+      "desc": "",
+      "tags" : ["AFTER EFFECTS"]
+
+    },
+    {
+      "title": "Dadzcover",
+      "theme": "WEB",
+      "year": "2011",
+      "link": "",
+      "image": "http://workflow.valerianpolizzi.fr/web/www.dadzcover.com/screenshot.png",
+      "desc": "",
+      "tags" : ["HTML", "CSS", "JAVASCRIPT"]
+
+    },
+    {
+      "title": "Kanye West's MPC : LLD",
+      "theme": "Flash",
+      "year": "2009",
+      "link": "https://www.newgrounds.com/portal/view/501467",
+      "image": "http://workflow.valerianpolizzi.fr/assets/img/mpc_kanye.png",
+      "desc": "",
+      "tags" : ["FLASH CS5"]
+
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "projects": [
+    {
+      "category": "WEB",
+      "count": "2",
+      "projects": [
+        {
+          "title": "Barde.io",
+          "theme": "WEB",
+          "year": "2018",
+          "link": "http://www.barde.io",
+          "image": "http://workflow.valerianpolizzi.fr/assets/img/bardeio.png",
+          "desc": "In order to preempt our EIP (Epitech Innovate Project), I realized the site www.barde.io by complying with a graphic charter.Developed with the AngularJs framework, this showcase includes integrations allowing registration to a newletter and a contact form protected by a Captcha system."
+        },
+        {
+          "title": "Streetr - Landing Page",
+          "theme": "PROTO",
+          "year": "2018",
+          "link": "http://www.streetr.eu",
+          "image": "http://workflow.valerianpolizzi.fr/assets/img/streetr-landing.png",
+          "desc": "As a developper, designing a prototype seems to be pointless."
+        },
+        {
+          "title": "Barde WebApp",
+          "theme": "WEB",
+          "year": "2018",
+          "link": "www.barde.io",
+          "image": "http://workflow.valerianpolizzi.fr/assets/img/barde-webapp.png",
+          "desc": "In order to preempt our EIP (Epitech Innovate Project), I realized the site www.barde.io by complying with a graphic charter.Developed with the AngularJs framework, this showcase includes integrations allowing registration to a newletter and a contact form protected by a Captcha system."
+        },
+        {
+          "title": "Covoit83",
+          "theme": "WEB",
+          "year": "2017",
+          "link": "https://covoit83.fr",
+          "image": "http://workflow.valerianpolizzi.fr/assets/img/covoit.png",
+          "desc": ""
+        },
+        {
+          "title": "R'pro'Covoiturage",
+          "theme": "WEB",
+          "year": "2017",
+          "link": "https://rprocovoiturage.boogi.fr/",
+          "image": "http://workflow.valerianpolizzi.fr/assets/img/rpro.png",
+          "desc": ""
+        },
+        {
+          "title": "Comparatif Assurance",
+          "theme": "WEB",
+          "year": "2017",
+          "link": "http://213.32.64.244/comparatif-assurances/#/etape1",
+          "image": "http://workflow.valerianpolizzi.fr/assets/img/comparatif.png",
+          "desc": ""
+        },
+        {
+          "title": "ProLinked",
+          "theme": "WEB",
+          "year": "2016",
+          "link": "http://prolinked.fr/",
+          "image": "http://workflow.valerianpolizzi.fr/assets/img/prolinked.png",
+          "desc": ""
+        },
+        {
+          "title": "Stock Manager",
+          "theme": "WEB",
+          "year": "2016",
+          "link": "http://workflow.valerianpolizzi.fr/web/stock_material",
+          "image": "http://workflow.valerianpolizzi.fr/assets/img/stock-manager.png",
+          "desc": ""
+        },
+        {
+          "title": "Sochic Bijoux",
+          "theme": "WEB",
+          "year": "2016",
+          "link": "http://sochicbijoux.com/",
+          "image": "http://workflow.valerianpolizzi.fr/assets/img/sochic.png",
+          "desc": ""
+        },
+        {
+          "title": "KanyeToTheBruh",
+          "theme": "WEB",
+          "year": "2015",
+          "link": "workflow/web/KanyeToTheBruh",
+          "image": "http://workflow.valerianpolizzi.fr/web/KanyeToTheBruh/screenshot.png",
+          "desc": ""
+        },
+        {
+          "title": "Social Closet",
+          "theme": "WEB",
+          "year": "2014",
+          "link": "http://workflow.valerianpolizzi.fr/web/sliding-closet",
+          "image": "http://workflow.valerianpolizzi.fr/web/sliding-closet/screenshot.png",
+          "desc": ""
+        },
+        {
+          "title": "Dadzcover",
+          "theme": "WEB",
+          "year": "2011",
+          "link": "http://workflow.valerianpolizzi.fr/web/www.dadzcover.com",
+          "image": "http://workflow.valerianpolizzi.fr/web/www.dadzcover.com/screenshot.png",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "category": "PROTO",
+      "count": "2",
+      "projects": [
+        {
+          "title": "Streetr - Prototype",
+          "theme": "PROTO",
+          "year": "2018",
+          "link": "https://marvelapp.com/a9i0jje",
+          "image": "http://workflow.valerianpolizzi.fr/assets/img/streetr-proto.png",
+          "desc": "As a developper, designing a prototype seems to be pointless."
+        }
+      ]
+    },
+    {
+      "category": "REPORTS",
+      "projects": [
+        {
+          "title": "Instant System Internship Report",
+          "theme": "PPT",
+          "year": "2018",
+          "link": "https://www.slideshare.net/ValrianPOLIZZI/soutance-stage-tek3-valerian-polizzi-2017",
+          "image": "http://workflow.valerianpolizzi.fr/assets/img/is-report.png",
+          "desc": "Fuerit toto in consulatu sine provincia, cui fuerit, antequam designatus est, decreta provincia. Sortietur an non? Nam et non sortiri absurdum est, et, quod sortitus sis, non habere. Proficiscetur paludatus? Quo? Quo pervenire ante certam diem non licebit. ianuario, Februario, provinciam non habebit; Kalendis ei denique Martiis nascetur repente provincia."
+        },
+        {
+          "title": "Sochic Bijoux - Report",
+          "theme": "PPT",
+          "year": "2016",
+          "link": "https://fr.slideshare.net/ValrianPOLIZZI/soutenance-stage-epitech-valrian-polizzi-zipa",
+          "image": "http://workflow.valerianpolizzi.fr/assets/img/report-sochic.png",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "category": "OTHER",
+      "projects": [
+        {
+          "title": "Polyeezy - Intro",
+          "theme": "OTHER",
+          "year": "2014",
+          "link": "https://www.youtube.com/watch?v=KSj8x77fkcA",
+          "image": "http://workflow.valerianpolizzi.fr/assets/img/polyeezy.png",
+          "desc": ""
+        },
+        {
+          "title": "Kanye West's MPC : LLD",
+          "theme": "OTHER",
+          "year": "2009",
+          "link": "https://www.newgrounds.com/portal/view/501467",
+          "image": "http://workflow.valerianpolizzi.fr/assets/img/mpc_kanye.png",
+          "desc": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+.carousel-slider, .carousel-item{
+background: #F8EE69;
+    min-height: 600px;
+}
+.carousel.carousel-slider .carousel-fixed-item.with-indicators {
+    bottom: 320px !important;
+}
+
+.carousel-fixed-item{
+    margin-top: 20px;
+}

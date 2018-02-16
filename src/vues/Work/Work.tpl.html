@@ -1,0 +1,30 @@
+<div id="work" class="section z-depth-2 scrollspy ">
+    <div class="container">
+        <div class="row center">
+            <a href="#work" class="vp-button black white-text hoverable" title="Scroll to this section">A PORTFOLIO</a>
+        </div>
+        <div class="row">
+            <div v-for="(project, index) in projects.projects" class="col s12 m4 center-align black-text">
+                <div class="card white">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" :src="images[index]">
+                    </div>
+                    <div class="card-content project-content">
+                        <span class="card-title activator grey-text text-darken-4">{{project.title}}<i class="material-icons right">more_vert</i></span>
+                        <span class="chip black white-text">{{project.theme}}</span>
+                        <p><a href="#">{{project.year}}</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">{{project.name}}<i class="material-icons right">close</i></span>
+                        <p class="flow-text left-align">{{project.desc}}</p>
+                        <hr>
+                        <span v-for="tag in project.tags" class="chip black white-text hoverable">{{tag}}</span>
+                        <hr>
+                        <a v-if="project.link" :href="project.link" target="_blank" class="green btn"><i class="material-icons right">link</i> Link</a>
+                        <a v-else class="btn red" href="">OFFLINE<i class="material-icons right">broken_image</i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
