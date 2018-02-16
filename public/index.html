@@ -14,9 +14,29 @@
     <meta property="og:type"               content="website" />
     <meta property="og:title"              content="Valérian Polizzi | Portfolio" />
     <meta property="og:description"        content="An Human beign, a Developer, a Freelancer, an Hypebeast and a Genius" />
-    <meta property="og:image"              content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
+    <meta property="og:image"              content="/FB.png" />
     <meta property="fb:app_id"             content="1539674632795243">
   </head>
+
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1";
+      fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <!-- Your like button code -->
+  <div class="fb-like"
+       data-href="https://www.your-domain.com/your-page.html"
+       data-layout="standard"
+       data-action="like"
+       data-show-faces="true">
+  </div>
+
+
   <body style="background: #F8EE69">
     <div id="app"></div>
   </body>
