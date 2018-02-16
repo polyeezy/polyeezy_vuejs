@@ -3,19 +3,19 @@
     "title" : "GSK",
     "subtitle" : "Hackathon participant",
     "date" : "Jan 17th 2018 - Jan 20th 2018",
-    "text" : "Nemo quaeso miretur, si post exsudatos labores itinerum longos congestosque adfatim commeatus fiducia vestri ductante barbaricos pagos adventans velut mutato repente consilio ad placidiora deverti."
+    "text" : ""
   },
   {
     "title" : "EPITECH",
     "subtitle" : "M1 in Computer Software Engineering",
     "date" : "2018",
-    "text" : "Nemo quaeso miretur, si post exsudatos labores itinerum longos congestosque adfatim commeatus fiducia vestri ductante barbaricos pagos adventans velut mutato repente consilio ad placidiora deverti."
+    "text" : ""
   },
   {
     "title" : "EPITECH",
     "subtitle" : "Bachelor in Computer Software Engineering",
     "date" : "2017",
-    "text" : "Nemo quaeso miretur, si post exsudatos labores itinerum longos congestosque adfatim commeatus fiducia vestri ductante barbaricos pagos adventans velut mutato repente consilio ad placidiora deverti."
+    "text" : ""
   },
   {
     "title" : "INSTANT SYSTEM",
@@ -33,19 +33,19 @@
     "title" : "ZIPA",
     "subtitle" : "Full Stack Developper internship",
     "date" : "Jan - Aug 2016",
-    "text" : "The first part of my 2nd year internship at EPITECH consisted of optimizing the daily update of elements in a database. Subsequently, I was able to completely rebuild an e-commerce website. The front end includes authentication, display of products in their categories, presentation of a retail item, addition to the shopping cart and integration of a payment module. For the back-end part, I was able to develop a module for generating invoices and a voucher system, allowing to change the status of orders made on the site (Sent / Paid / Shipped ..)"
+    "text" : "The first part of my 2nd year internship at EPITECH consisted of optimizing the daily update of elements in a database. Subsequently, I was able to completely rebuild an e-commerce website. The front end includes authentication, display of products in their categories, presentation of a retail item, addition to the shopping cart and integration of a payment module. For the back-end part, I was able to develop a module for generating invoices and a voucher system, allowing to change the status of orders made on the site (sent / paid / shipped)"
   },
   {
     "title": "ProLinked",
     "subtitle" : "Freelance",
     "date" : "2016",
-    "desc": ""
+    "text": "In order to materialize the idea of two business school students, I initially realized a pre-launch page of the service. Subsequently, I was able to create an authentication system (registration, login, profile management) combined with a system of SMS verification and automated e-mail sending."
   },
   {
     "title" : "EPITECH",
     "subtitle" : "Started Epitech Computer Software Engineering School",
     "date" : "2013",
-    "text" : "Nemo quaeso miretur, si post exsudatos labores itinerum longos congestosque adfatim commeatus fiducia vestri ductante barbaricos pagos adventans velut mutato repente consilio ad placidiora deverti."
+    "text" : ""
   },
   {
     "title" : "BTS SIO",

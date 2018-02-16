@@ -33,7 +33,6 @@
     import intro from '../../assets/images/portfolio/intro.png';
     import isReport from '../../assets/images/portfolio/is-report.png';
     import MPC from '../../assets/images/portfolio/mpc_kanye.png';
-    import Polyeezy from '../../assets/images/portfolio/polyeezy.png';
     import Prolinked from '../../assets/images/portfolio/prolinked.png';
     import ReportSochic from '../../assets/images/portfolio/report-sochic.png';
     import Rpro from '../../assets/images/portfolio/rpro.png';
@@ -41,7 +40,9 @@
     import StockManager from '../../assets/images/portfolio/stock-manager.png';
     import Streetr from '../../assets/images/portfolio/streetr-landing.png';
     import StreetrProto from '../../assets/images/portfolio/streetr-proto.png';
-
+    import Dadzcover from '../../assets/images/portfolio/screenshot-2.png'
+    import KanyeTo from '../../assets/images/portfolio/screenshot.png'
+    import Closet from '../../assets/images/portfolio/screenshot-1.png'
 
     import $ from 'jquery';
 
@@ -51,7 +52,7 @@
             return {
                 projects : Projects,
                 images : [Valer, Streetr, StreetrProto, BardeWebAppImg, isReport, Covoit, Rpro, Comparatif, BardeIoAppImg, Prolinked, StockManager, ReportSochic
-                , Sochic, MPC, MPC, intro, Polyeezy, Polyeezy, Polyeezy]
+                , Sochic, KanyeTo, Closet, intro, MPC, Dadzcover, MPC]
             }
         },
         components: {

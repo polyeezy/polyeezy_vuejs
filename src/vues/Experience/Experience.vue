@@ -22,12 +22,13 @@
     import SOCHIC from '../../assets/images/experiences/sochic-16x9.jpg'
     import EPITECH3 from '../../assets/images/experiences/epitech.jpg'
     import BTS from '../../assets/images/experiences/bts_sio.png'
+    import PROLINKED from '../../assets/images/experiences/Prolinked-16x9.jpg'
     export default {
         name: 'experience',
         data () {
             return {
                 experiences : ExperienceData,
-                images : [GSK, EPITECH, EPITECH2, INSTANT, HACKPOMPIER, SOCHIC, EPITECH3, BTS]
+                images : [GSK, EPITECH, EPITECH2, INSTANT, HACKPOMPIER, SOCHIC, PROLINKED, EPITECH3, BTS]
             }
         },
         components: {
