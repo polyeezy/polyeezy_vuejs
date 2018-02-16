@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="<%= webpackConfig.output.publicPath %>favicon.ico">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+    <!-- FAVICONS -->
     <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-icon-72x72.png">
@@ -24,8 +25,25 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
+    <!-- FACEBOOK META -->
+    <meta property="og:url"                content="http://www.valerianpolizzi.fr" />
+    <meta property="og:type"               content="website" />
+    <meta property="og:title"              content="Valérian Polizzi | Portfolio" />
+    <meta property="og:description"        content="[HUMAN_BEING, DEVELOPER, FREELANCER, HYPEBEAST, GENIUS]" />
+    <meta property="og:image"              content="http://www.valerianpolizzi.fr/FB.png" />
+    <meta property="fb:app_id"             content="1539674632795243">
+
+    <!-- TWITTER META -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@polyeezy" />
+    <meta name="twitter:creator" content="@polyeezy" />
+    <meta property="og:url" content="http://www.valerianpolizzi.fr" />
+    <meta property="og:title" content="A Twitter for My Sister" />
+    <meta property="og:description" content="[HUMAN_BEING, DEVELOPER, FREELANCER, HYPEBEAST, GENIUS]" />
+    <meta property="og:image" content="http://www.valerianpolizzi.fr/FB.png" />
+
     <title>Valérian Polizzi - Digital Manufacturer</title>
-    <meta name="description" content="An Human beign, a Developer, a Freelancer, an Hypebeast and a Genius" />
+    <meta name="description" content="[HUMAN_BEING, DEVELOPER, FREELANCER, HYPEBEAST, GENIUS]" />
 
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -35,34 +53,27 @@
     })(window,document,'script','dataLayer','GTM-WGG85KM');</script>
     <!-- End Google Tag Manager -->
 
-    <meta property="og:url"                content="http://www.valerianpolizzi.fr" />
-    <meta property="og:type"               content="website" />
-    <meta property="og:title"              content="Valérian Polizzi | Portfolio" />
-    <meta property="og:description"        content="An Human beign, a Developer, a Freelancer, an Hypebeast and a Genius" />
-    <meta property="og:image"              content="/FB.png" />
-    <meta property="fb:app_id"             content="1539674632795243">
+    <!-- G+ sharing -->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+    <!-- Linkedin -->
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
   </head>
 
   <!-- Load Facebook SDK for JavaScript -->
+
+
+  <body style="background: #F8EE69">
+
   <div id="fb-root"></div>
   <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
       if (d.getElementById(id)) return;
       js = d.createElement(s); js.id = id;
-      js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1";
+      js.src = 'https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.12&appId=1539674632795243&autoLogAppEvents=1';
       fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
-
-  <!-- Your like button code -->
-  <div class="fb-like"
-       data-href="https://www.your-domain.com/your-page.html"
-       data-layout="standard"
-       data-action="like"
-       data-show-faces="true">
-  </div>
-
-
-  <body style="background: #F8EE69">
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WGG85KM"
                     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

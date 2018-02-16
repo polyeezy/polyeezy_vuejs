@@ -5,7 +5,7 @@
             <a href="#work" class="vp-button black white-text hoverable" title="Scroll to this section">A PORTFOLIO</a>
         </div>
         <div class="row">
-            <div v-for="(project, index) in projects.projects" class="col s12 m4 center-align black-text">
+            <div v-for="(project, index) in projects.projects"  class="col s12 m4 center-align black-text">
                 <div class="card white">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator" :src="images[index]">
@@ -22,7 +22,6 @@
                         <span v-for="tag in project.tags" class="chip black white-text hoverable">{{tag}}</span>
                         <hr>
                         <a v-if="project.link" :href="project.link" target="_blank" class="green btn"><i class="material-icons right">link</i> Link</a>
-                        <a v-else class="btn red" href="">OFFLINE<i class="material-icons right">broken_image</i></a>
                     </div>
                 </div>
             </div>

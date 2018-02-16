@@ -21,19 +21,25 @@
     "title" : "INSTANT SYSTEM",
     "subtitle" : "Full Stack Developper internship",
     "date" : "2017",
-    "text" : "Nemo quaeso miretur, si post exsudatos labores itinerum longos congestosque adfatim commeatus fiducia vestri ductante barbaricos pagos adventans velut mutato repente consilio ad placidiora deverti."
+    "text" : "My internship was initially to migrate a carpooling site developed in TYPO3 to Wordpress. This migration involves the integration of a graphic chart and the development of an administrator interface."
   },
   {
     "title" : "E-POMPIERS",
     "subtitle" : "Hackathon participant",
     "date" : "May 2016",
-    "text" : "Nemo quaeso miretur, si post exsudatos labores itinerum longos congestosque adfatim commeatus fiducia vestri ductante barbaricos pagos adventans velut mutato repente consilio ad placidiora deverti."
+    "text" : "Having contributed to a Hackathon organized by Epitech, my role was to create a tool to facilitate the management of stock within a fire station. With this solution, the user can dynamically add and remove an object from a database and have an overview of the current stock."
   },
   {
     "title" : "ZIPA",
     "subtitle" : "Full Stack Developper internship",
     "date" : "Jan - Aug 2016",
-    "text" : "Nemo quaeso miretur, si post exsudatos labores itinerum longos congestosque adfatim commeatus fiducia vestri ductante barbaricos pagos adventans velut mutato repente consilio ad placidiora deverti."
+    "text" : "The first part of my 2nd year internship at EPITECH consisted of optimizing the daily update of elements in a database. Subsequently, I was able to completely rebuild an e-commerce website. The front end includes authentication, display of products in their categories, presentation of a retail item, addition to the shopping cart and integration of a payment module. For the back-end part, I was able to develop a module for generating invoices and a voucher system, allowing to change the status of orders made on the site (Sent / Paid / Shipped ..)"
+  },
+  {
+    "title": "ProLinked",
+    "subtitle" : "Freelance",
+    "date" : "2016",
+    "desc": ""
   },
   {
     "title" : "EPITECH",
