@@ -1,6 +1,6 @@
 .carousel-slider, .carousel-item{
 background: #F8EE69;
-    min-height: 600px;
+    min-height: 400px;
 }
 .carousel.carousel-slider .carousel-fixed-item.with-indicators {
     bottom: 320px !important;

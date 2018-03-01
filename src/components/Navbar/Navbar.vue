@@ -39,7 +39,7 @@
     var lastScroll = $(document).scrollTop();
     $(window).scroll(function() {
         var newScroll = $(document).scrollTop();
-        if (lastScroll > 600){
+        if (lastScroll > 400){
             $('nav').removeClass('z-depth-0');
             $('nav').addClass('z-depth-2');
         }else{

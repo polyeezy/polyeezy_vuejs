@@ -2,6 +2,16 @@
     background: #F8EE69;
 }
 
+h5{
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.card-mind{
+    margin-bottom: 30px;
+}
+
 .vp-button{
     font-size: 20px;
     font-family: "Work Sans", "Roboto";
@@ -57,8 +67,9 @@ nav{
 }
 
 .lego{
-    width: 230px !important;
-    height: 384px !important;
+    min-height: 23px;
+    min-width: 14px;
+    max-height: 250px;
 }
 
 .slider .indicators .indicator-item.active{

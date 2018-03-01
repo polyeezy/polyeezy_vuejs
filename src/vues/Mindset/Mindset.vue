@@ -12,8 +12,29 @@
 
     }
 
+    .top-fixed{
+        position: absolute;
+        top: -25px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50px;
+    }
+
     .card{
         background: #F8D769;
+        padding-top: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 40px;
+    }
+
+    .card .card-title{
+        padding-bottom: 10px;
+    }
+
+    .card p{
     }
 
     .mindset-color{
