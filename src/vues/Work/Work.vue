@@ -29,25 +29,9 @@
         }(document, 'script', 'facebook-jssdk'));
 
     import Projects from '../../assets/data/projects';
-    import Valer from '../../assets/images/portfolio/valerian.png';
 
-    import BardeWebAppImg from '../../assets/images/portfolio/barde-webapp.png';
-    import BardeIoAppImg from '../../assets/images/portfolio/bardeio.png';
-    import Comparatif from '../../assets/images/portfolio/comparatif.png';
-    import Covoit from '../../assets/images/portfolio/covoit.png';
-    import intro from '../../assets/images/portfolio/intro.png';
-    import isReport from '../../assets/images/portfolio/is-report.png';
-    import MPC from '../../assets/images/portfolio/mpc_kanye.png';
-    import Prolinked from '../../assets/images/portfolio/prolinked.png';
-    import ReportSochic from '../../assets/images/portfolio/report-sochic.png';
-    import Rpro from '../../assets/images/portfolio/rpro.png';
-    import Sochic from '../../assets/images/portfolio/sochic.png';
-    import StockManager from '../../assets/images/portfolio/stock-manager.png';
-    import Streetr from '../../assets/images/portfolio/streetr-landing.png';
-    import StreetrProto from '../../assets/images/portfolio/streetr-proto.png';
-    import Dadzcover from '../../assets/images/portfolio/screenshot-2.png'
-    import KanyeTo from '../../assets/images/portfolio/screenshot.png'
-    import Closet from '../../assets/images/portfolio/screenshot-1.png'
+    import Portfolio from '../../assets/data/portfolio'
+
 
     import $ from 'jquery';
 
@@ -55,15 +39,27 @@
         name: 'work',
         data () {
             return {
-                projects : Projects,
-                images : [Valer, Streetr, StreetrProto, BardeWebAppImg, isReport, Covoit, Rpro, Comparatif, BardeIoAppImg, Prolinked, StockManager, ReportSochic
-                , Sochic, KanyeTo, Closet, intro, MPC, Dadzcover, MPC]
+                categories : {},
+                allProjects : {},
+                portfolio: Portfolio
             }
         },
         components: {
 
         },
         mounted: function () {
+
+
+            this.portfolio.categories.forEach(function(category){
+
+                category.forEach(function (project){
+                    allProjects.push(project);
+                });
+
+                this.categories = this.allProjects;
+
+            })
+
             var max = 0;
             $('.project-content').each(function(){
                 max = max < $(this).height() ? $(this).height() : max;
@@ -72,7 +68,17 @@
                 $(this).height(max);
             });
         },
-        methods: {}
+        methods: {
+            setCategory(cat) {
+
+                this.categories = Portfolio.portfolio.categories.filter(function (item) {
+                    if (cat == "ALL")
+                        return this.allProjects;
+                    return item.name.match(cat)
+                })
+            }
+
+        }
     }
 </script>
 

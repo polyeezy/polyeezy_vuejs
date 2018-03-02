@@ -1,0 +1,280 @@
+{
+  "portfolio": {
+    "categories": [
+      {
+        "name": "WEB",
+        "projects": [
+          {
+            "title": "Valérian Polizzi - Portfolio",
+            "year": "2018",
+            "link": "/portfolio/web/portfolio-2018",
+            "desc": "This website right here.",
+            "image" : "/images/portfolio/valerian.png",
+            "theme": "WEB",
+
+            "tags": [
+              "HTML",
+              "CSS",
+              "VUEJS",
+              "MATERIALIZECSS"
+            ]
+          },
+          {
+            "title": "Streetr - Landing Page",
+            "theme": "PROTO",
+            "year": "2018",
+            "link": "/portfolio/web/Streetr",
+            "desc": "Streetr landing page",
+            "image" : "/images/portfolio/valerian.png",
+            "tags": [
+              "HTML",
+              "CSS",
+              "JAVASCRIPT",
+              "MATERIALIZECSS",
+              "Google Maps"
+            ]
+          },
+          {
+            "title": "Barde WebApp",
+            "theme": "WEB",
+            "year": "2018",
+            "link": "",
+            "image": "http://workflow.valerianpolizzi.fr/assets/img/barde-webapp.png",
+            "desc": "Barde web player application",
+            "image" : "/images/portfolio/valerian.png",
+            "tags": [
+              "HTML",
+              "CSS",
+              "VUEJS",
+              "MATERIALIZECSS"
+            ]
+          },
+          {
+            "title": "Covoit83",
+            "theme": "WEB",
+            "year": "2017",
+            "link": "https://covoit83.fr",
+            "image": "http://workflow.valerianpolizzi.fr/assets/img/covoit.png",
+            "desc": "Wordpress plugin & theme development",
+            "image" : "/images/portfolio/valerian.png",
+
+            "tags": [
+              "HTML",
+              "CSS",
+              "WORDPRESS THEME",
+              "WORDPRESS PLUGIN",
+              "SWAGGER",
+              "KIBANA",
+              "JENKINS"
+            ]
+          },
+          {
+            "title": "R'pro'Covoiturage",
+            "theme": "WEB",
+            "year": "2017",
+            "link": "https://rprocovoiturage.boogi.fr/",
+            "image" : "/images/portfolio/valerian.png",
+            "desc": "Wordpress plugin & theme development",
+
+            "tags": [
+              "HTML",
+              "CSS",
+              "WORDPRESS THEME",
+              "WORDPRESS PLUGIN"
+            ]
+          },
+          {
+            "title": "Insurance comparator",
+            "theme": "WEB",
+            "year": "2017",
+            "link": "",
+            "image" : "/images/portfolio/valerian.png",
+            "desc": "",
+            "tags": [
+              "HTML",
+              "CSS",
+              "ANGULAR2"
+            ]
+          },
+          {
+            "title": "Barde.io",
+            "theme": "WEB",
+            "year": "2018",
+            "link": "http://www.barde.io",
+            "image" : "/images/portfolio/valerian.png",
+            "desc": "A vuejs website",
+            "tags": [
+              "HTML",
+              "CSS",
+              "ANGULAR2",
+              "MATERIALIZECSS"
+            ]
+          },
+          {
+            "title": "ProLinked",
+            "theme": "WEB",
+            "year": "2016",
+            "image" : "/images/portfolio/valerian.png",
+
+            "link": "http://prolinked.fr/",
+            "desc": "A social network skeleton",
+            "tags": [
+              "HTML",
+              "CSS",
+              "PHP",
+              "API",
+              "SMS"
+            ]
+          },
+          {
+            "title": "Stock Manager",
+            "theme": "WEB",
+            "year": "2016",
+
+            "link": "http://workflow.valerianpolizzi.fr/web/stock_material",
+            "image" : "/images/portfolio/valerian.png",
+            "desc": "An angular2 webapp (E-POMPIER Hackathon)",
+            "tags": [
+              "HTML",
+              "CSS",
+              "ANGULAR2",
+              "MATERIALIZECSS"
+            ]
+          },
+          {
+            "title": "Sochic Bijoux",
+            "theme": "WEB",
+            "year": "2016",
+            "link": "http://sochicbijoux.com/",
+            "image" : "/images/portfolio/valerian.png",
+            "desc": "E-commerce from scratch (front-end + back-end)",
+            "tags": [
+              "HTML",
+              "CSS",
+              "PHP",
+              "BOOTSTRAP",
+              "MYSQL"
+            ]
+          },
+          {
+            "title": "KanyeToTheBruh",
+            "theme": "WEB",
+            "year": "2015",
+            "link": "https://polyeezy.github.io/KanyeToTheBruh/",
+            "image" : "/images/portfolio/valerian.png",
+            "desc": " ¯\\_(ツ)_/¯",
+            "tags": [
+              "HTML",
+              "CSS",
+              "JAVASCRIPT"
+            ]
+          },
+          {
+            "title": "Social Closet",
+            "theme": "WEB",
+            "year": "2014",
+            "link": "https://polyeezy.github.io/sliding-closet/",
+            "image" : "/images/portfolio/valerian.png",
+            "desc": "Back in the days, I used this as a footer in my old portfolio",
+            "tags": [
+              "HTML",
+              "CSS",
+              "JAVASCRIPT"
+            ]
+          },
+          {
+            "title": "Dadzcover",
+            "theme": "WEB",
+            "year": "2011",
+            "link": "",
+            "image" : "/images/portfolio/valerian.png",
+            "desc": "My first ever web experimentation. Responsive was yet in the dictionnary",
+            "tags": [
+              "HTML",
+              "CSS",
+              "JAVASCRIPT"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "MOBILE",
+        "projects": [
+          {
+            "title": "Streetr - Prototype",
+            "theme": "PROTO",
+            "year": "2018",
+            "link": "https://marvelapp.com/a9i0jje",
+            "image" : "/images/portfolio/valerian.png",
+            "desc": "An interactive application prototype made with Marvel and Sketch",
+            "tags": [
+              "SKETCH",
+              "MARVEL"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "REPORT",
+        "projects": [
+          {
+            "title": "Instant System Internship Report",
+            "theme": "PPT",
+            "year": "2018",
+            "link": "https://www.slideshare.net/ValrianPOLIZZI/soutance-stage-tek3-valerian-polizzi-2017",
+            "image" : "/images/portfolio/valerian.png",
+            "desc": "An oral report for my second internship in Epitech",
+            "tags": [
+              "POWERPOINT",
+              "PITCH"
+            ]
+          },
+          {
+            "title": "Sochic Bijoux - Report",
+            "theme": "PPT",
+            "year": "2016",
+            "link": "https://fr.slideshare.net/ValrianPOLIZZI/soutenance-stage-epitech-valrian-polizzi-zipa",
+            "image" : "/images/portfolio/valerian.png",
+            "desc": "An oral report for my second internship in Epitech",
+            "tags": [
+              "POWERPOINT",
+              "PITCH"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "MEDIA",
+        "projects": [
+          {
+            "title": "Polyeezy - Intro",
+            "theme": "VIDEO",
+            "year": "2014",
+            "link": "https://www.youtube.com/watch?v=KSj8x77fkcA",
+            "image" : "/images/portfolio/valerian.png",
+            "desc": "Without any purpose, I wanted to try After Effects",
+            "tags": [
+              "AFTER EFFECTS"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "FLASH",
+        "projects": [
+          {
+            "title": "Kanye West's MPC : LLD",
+            "theme": "Flash",
+            "year": "2009",
+            "link": "https://www.newgrounds.com/portal/view/501467",
+            "image" : "/images/portfolio/valerian.png",
+            "desc": "My first line of code. I was 14 :)",
+            "tags": [
+              "FLASH CS5"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

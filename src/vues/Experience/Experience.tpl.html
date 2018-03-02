@@ -1,7 +1,7 @@
 <div id="experiences" class="section z-depth-2  scrollspy ">
     <div class="container">
         <div class="row center">
-            <a href="#experiences" class="vp-button black white-text hoverable" title="Scroll to this section">EXPERIENCES</a>
+            <a href="#experiences" class="vp-button black white-text hoverable" title="Scroll to this section">FORMATION & EXPERIENCES</a>
         </div>
         <div class="">
                 <ExperienceCard v-for="(exp, index) in experiences" :key="exp.title" :title="exp.title" :subtitle="exp.subtitle" :image="images[index]" :date="exp.date" :text="exp.text"></ExperienceCard>

@@ -3,23 +3,34 @@
     {
       "title": "Valérian Polizzi - Portfolio",
       "theme": "WEB",
+
       "year": "2018",
-      "link": "#",
+      "link": "/portfolio/web/portfolio-2018",
       "desc": "This website right here.",
-      "tags" : ["HTML", "CSS", "JAVASCRIPT", "VUEJS", "MATERIALIZECSS"]
+      "tags": [
+        "HTML",
+        "CSS",
+        "VUEJS",
+        "MATERIALIZECSS"
+      ]
     },
     {
       "title": "Streetr - Landing Page",
-      "theme": "PROTO",
+      "theme": "WEB",
       "year": "2018",
-      "link": "",
+      "link": "/portfolio/web/Streetr",
       "desc": "Streetr landing page",
-      "tags" : ["HTML", "CSS", "JAVASCRIPT", "MATERIALIZECSS"]
-
+      "tags": [
+        "HTML",
+        "CSS",
+        "JAVASCRIPT",
+        "MATERIALIZECSS",
+        "Google Maps"
+      ]
     },
     {
       "title": "Streetr - Prototype",
-      "theme": "PROTO",
+      "theme": "MBILE",
       "year": "2018",
       "link": "https://marvelapp.com/a9i0jje",
       "image": "http://workflow.valerianpolizzi.fr/assets/img/streetr-proto.png",

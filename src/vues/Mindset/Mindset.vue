@@ -22,7 +22,11 @@
         width: 50px;
     }
 
-    .card{
+    .card .card-content{
+        padding-bottom: 0;
+    }
+
+    .card-mind{
         background: #F8D769;
         padding-top: 40px;
         padding-left: 10px;
@@ -35,6 +39,7 @@
     }
 
     .card p{
+        font-weight: normal;
     }
 
     .mindset-color{
