@@ -1,11 +1,9 @@
 <style scoped>
 
-    #work{
+    #portfolio{
         background: #60657a;
-
         padding-bottom: 40px;
         padding-top: 40px;
-
     }
 
     @font-face {
@@ -13,7 +11,15 @@
         src: url('/fonts/WorkSans/WorkSans-Regular.otf') format("opentype");
     }
 
+    .active{
+        background: #F8EE69;
+        color: black;
+    }
 
+
+    .tabs{
+
+    }
 
 </style>
 <template src="./Work.tpl.html"></template>
@@ -27,8 +33,6 @@
             js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1";
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
-
-    import Projects from '../../assets/data/projects';
 
     import Portfolio from '../../assets/data/portfolio'
 
@@ -50,15 +54,9 @@
         mounted: function () {
 
 
-            this.portfolio.categories.forEach(function(category){
 
-                category.forEach(function (project){
-                    allProjects.push(project);
-                });
-
-                this.categories = this.allProjects;
-
-            })
+            this.setCategory("WEB")
+            $('ul.tabs').tabs();
 
             var max = 0;
             $('.project-content').each(function(){
@@ -72,10 +70,10 @@
             setCategory(cat) {
 
                 this.categories = Portfolio.portfolio.categories.filter(function (item) {
-                    if (cat == "ALL")
-                        return this.allProjects;
+                    console.log(item);
                     return item.name.match(cat)
                 })
+
             }
 
         }

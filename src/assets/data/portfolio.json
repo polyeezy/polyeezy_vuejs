@@ -3,15 +3,22 @@
     "categories": [
       {
         "name": "WEB",
+        "icon" : "fas fa-globe",
+        "description" : "All WEB related projects",
         "projects": [
           {
             "title": "Valérian Polizzi - Portfolio",
             "year": "2018",
-            "link": "/portfolio/web/portfolio-2018",
+            "link": "web-portfolio",
             "desc": "This website right here.",
-            "image" : "/images/portfolio/valerian.png",
-            "theme": "WEB",
-
+            "images" : ["images/portfolio/valerianpolizzi-1.png"],
+            "category": "WEB",
+            "features" : [
+              {
+                "name" : "Genius plugin integration",
+                "description" : "Genius allows users to annotate content"
+              }
+            ],
             "tags": [
               "HTML",
               "CSS",
@@ -23,9 +30,9 @@
             "title": "Streetr - Landing Page",
             "theme": "PROTO",
             "year": "2018",
-            "link": "/portfolio/web/Streetr",
+            "link": "streetr",
             "desc": "Streetr landing page",
-            "image" : "/images/portfolio/valerian.png",
+            "images" : ["images/portfolio/streetr-1.png"],
             "tags": [
               "HTML",
               "CSS",
@@ -39,9 +46,8 @@
             "theme": "WEB",
             "year": "2018",
             "link": "",
-            "image": "http://workflow.valerianpolizzi.fr/assets/img/barde-webapp.png",
             "desc": "Barde web player application",
-            "image" : "/images/portfolio/valerian.png",
+            "images" : ["images/portfolio/barde-webapp-1.png"],
             "tags": [
               "HTML",
               "CSS",
@@ -54,9 +60,9 @@
             "theme": "WEB",
             "year": "2017",
             "link": "https://covoit83.fr",
-            "image": "http://workflow.valerianpolizzi.fr/assets/img/covoit.png",
+            "images" : ["images/portfolio/valerianpolizzi.png"],
             "desc": "Wordpress plugin & theme development",
-            "image" : "/images/portfolio/valerian.png",
+            "images" : ["images/portfolio/covoit.png"],
 
             "tags": [
               "HTML",
@@ -73,7 +79,7 @@
             "theme": "WEB",
             "year": "2017",
             "link": "https://rprocovoiturage.boogi.fr/",
-            "image" : "/images/portfolio/valerian.png",
+            "images" : ["images/portfolio/rpro-1.png"],
             "desc": "Wordpress plugin & theme development",
 
             "tags": [
@@ -88,7 +94,7 @@
             "theme": "WEB",
             "year": "2017",
             "link": "",
-            "image" : "/images/portfolio/valerian.png",
+            "images" : ["images/portfolio/comparatif-1.png", "images/portfolio/comparatif-2.png"],
             "desc": "",
             "tags": [
               "HTML",
@@ -101,7 +107,7 @@
             "theme": "WEB",
             "year": "2018",
             "link": "http://www.barde.io",
-            "image" : "/images/portfolio/valerian.png",
+            "images" : ["images/portfolio/bardeio.png"],
             "desc": "A vuejs website",
             "tags": [
               "HTML",
@@ -114,7 +120,7 @@
             "title": "ProLinked",
             "theme": "WEB",
             "year": "2016",
-            "image" : "/images/portfolio/valerian.png",
+            "images" : ["images/portfolio/prolinked.png"],
 
             "link": "http://prolinked.fr/",
             "desc": "A social network skeleton",
@@ -132,7 +138,7 @@
             "year": "2016",
 
             "link": "http://workflow.valerianpolizzi.fr/web/stock_material",
-            "image" : "/images/portfolio/valerian.png",
+            "images" : ["images/portfolio/stock-manager.png"],
             "desc": "An angular2 webapp (E-POMPIER Hackathon)",
             "tags": [
               "HTML",
@@ -146,7 +152,7 @@
             "theme": "WEB",
             "year": "2016",
             "link": "http://sochicbijoux.com/",
-            "image" : "/images/portfolio/valerian.png",
+            "images" : ["images/portfolio/sochic.png"],
             "desc": "E-commerce from scratch (front-end + back-end)",
             "tags": [
               "HTML",
@@ -161,7 +167,7 @@
             "theme": "WEB",
             "year": "2015",
             "link": "https://polyeezy.github.io/KanyeToTheBruh/",
-            "image" : "/images/portfolio/valerian.png",
+            "images" : ["images/portfolio/screenshot.png"],
             "desc": " ¯\\_(ツ)_/¯",
             "tags": [
               "HTML",
@@ -174,7 +180,7 @@
             "theme": "WEB",
             "year": "2014",
             "link": "https://polyeezy.github.io/sliding-closet/",
-            "image" : "/images/portfolio/valerian.png",
+            "images" : ["images/portfolio/screenshot-1.png"],
             "desc": "Back in the days, I used this as a footer in my old portfolio",
             "tags": [
               "HTML",
@@ -187,7 +193,7 @@
             "theme": "WEB",
             "year": "2011",
             "link": "",
-            "image" : "/images/portfolio/valerian.png",
+            "images" : ["images/portfolio/dadzcover.png"],
             "desc": "My first ever web experimentation. Responsive was yet in the dictionnary",
             "tags": [
               "HTML",
@@ -199,13 +205,16 @@
       },
       {
         "name": "MOBILE",
+        "icon" : "fas fa-mobile",
+        "description" : "All WEB related projects",
+
         "projects": [
           {
             "title": "Streetr - Prototype",
             "theme": "PROTO",
             "year": "2018",
             "link": "https://marvelapp.com/a9i0jje",
-            "image" : "/images/portfolio/valerian.png",
+            "images" : ["images/portfolio/streetr-proto.png"],
             "desc": "An interactive application prototype made with Marvel and Sketch",
             "tags": [
               "SKETCH",
@@ -216,13 +225,16 @@
       },
       {
         "name": "REPORT",
+        "icon" : "fas fa-file-powerpoint",
+        "description" : "All WEB related projects",
+
         "projects": [
           {
             "title": "Instant System Internship Report",
             "theme": "PPT",
             "year": "2018",
             "link": "https://www.slideshare.net/ValrianPOLIZZI/soutance-stage-tek3-valerian-polizzi-2017",
-            "image" : "/images/portfolio/valerian.png",
+            "images" : ["images/portfolio/report-sochic.png"],
             "desc": "An oral report for my second internship in Epitech",
             "tags": [
               "POWERPOINT",
@@ -234,7 +246,7 @@
             "theme": "PPT",
             "year": "2016",
             "link": "https://fr.slideshare.net/ValrianPOLIZZI/soutenance-stage-epitech-valrian-polizzi-zipa",
-            "image" : "/images/portfolio/valerian.png",
+            "images" : ["images/portfolio/is-report.png"],
             "desc": "An oral report for my second internship in Epitech",
             "tags": [
               "POWERPOINT",
@@ -245,13 +257,16 @@
       },
       {
         "name": "MEDIA",
+        "icon" : "fas fa-images",
+        "description" : "All WEB related projects",
+
         "projects": [
           {
             "title": "Polyeezy - Intro",
             "theme": "VIDEO",
             "year": "2014",
             "link": "https://www.youtube.com/watch?v=KSj8x77fkcA",
-            "image" : "/images/portfolio/valerian.png",
+            "images" : ["images/portfolio/polyeezy.png"],
             "desc": "Without any purpose, I wanted to try After Effects",
             "tags": [
               "AFTER EFFECTS"
@@ -260,14 +275,36 @@
         ]
       },
       {
-        "name": "FLASH",
+        "name": "CONCEPT",
+        "icon" : "fas fa-folder",
+        "description" : "All WEB related projects",
+
+        "projects": [
+          {
+            "title": "deskOteque",
+            "theme": "Flash",
+            "year": "2018",
+            "link": "https://www.newgrounds.com/portal/view/501467",
+            "images" : ["images/portfolio/DeskOtek.png"],
+            "desc": "My first line of code. I was 14 :)",
+            "tags": [
+              "FLASH CS5"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "OTHER",
+        "icon" : "fas fa-folder",
+        "description" : "All WEB related projects",
+
         "projects": [
           {
             "title": "Kanye West's MPC : LLD",
             "theme": "Flash",
             "year": "2009",
             "link": "https://www.newgrounds.com/portal/view/501467",
-            "image" : "/images/portfolio/valerian.png",
+            "images" : ["images/portfolio/mpc_kanye.png"],
             "desc": "My first line of code. I was 14 :)",
             "tags": [
               "FLASH CS5"

@@ -3,27 +3,27 @@
   "data": [
     {
       "button": "AN HUMAN BEING",
-      "lego": "main-lego",
+      "lego": "images/legos/main-lego.png",
       "text": "Valérian Polizzi was built the 7th of April 1994, in Southern France. His purpose was to be innovany, agile and flexible. That is the reason he was sold with interchangrable pieces. "
     },
     {
       "button": "A DEVELOPER",
-      "lego": "main-lego",
+      "lego": "images/legos/Dev.png",
       "text": "Valérian attended Epitech Computer Software Engineering (2013), a private institution of higher education in general computer science. He completed his bachelor degree in Computer Software Engineering (2017) as he heading in Brussels, to pursue a program focusing on innovation and entrepreneurship. "
     },
     {
       "button": "A FREELANCER",
-      "lego": "main-lego",
+      "lego": "images/legos/Desktop HD.png",
       "text": "Valérian was build with two hands. He can handle his studies while doing freelance."
     },
     {
       "button": "AN HYPEBEAST",
-      "lego": "main-lego",
-      "text": "Valérian won’t hesitate to get up at 5am to buy brands you can’t even pronounce."
+      "lego": "images/legos/Hypebeast.png",
+      "text": "Valérian won’t hesitate to get up at 5am to buy brand items you can’t even pronounce."
     },
     {
       "button": "A GENIUS",
-      "lego": "main-lego",
+      "lego": "images/legos/Genius.png",
       "text": "Name one genius that ain’t crazy."
     }
   ]

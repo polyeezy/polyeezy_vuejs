@@ -3,10 +3,18 @@
     {
       "title": "Valérian Polizzi - Portfolio",
       "theme": "WEB",
-
       "year": "2018",
-      "link": "/portfolio/web/portfolio-2018",
+      "link": "portfolio",
       "desc": "This website right here.",
+      "headline": "This website right here.",
+      "description" : "",
+      "color" : "#F8EE69",
+      "features" : [
+        {
+          "name" : "Genius plugin integration",
+          "description" : "Genius allows users to annotate content"
+        }
+      ],
       "tags": [
         "HTML",
         "CSS",

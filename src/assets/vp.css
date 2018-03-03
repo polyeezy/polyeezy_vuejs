@@ -23,6 +23,39 @@ h5{
     padding-bottom: 10px;
 }
 
+.preloader {
+    width: 100%;
+    height: 100vh;
+    background: #F8EE69;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: "Raleway", sans-serif;
+    position: relative;
+}
+.preloader__status {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.preloader__status-text {
+    font-size: 40px;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 20px;
+}
+.preloader__status-loader {
+    width: 100%;
+    height: 3px;
+}
+.preloader__status-bar {
+    background: black;
+    height: 100%;
+}
+
 nav{
 }
 
@@ -52,7 +85,9 @@ nav{
     }
 }
 
-
+.tabs .indicator {
+    background-color: #F8EE69 !important;
+}
 
 .caption{
     padding-top: 80px;

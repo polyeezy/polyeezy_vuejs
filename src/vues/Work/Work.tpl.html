@@ -1,26 +1,30 @@
-<div id="work" class="section z-depth-2 scrollspy ">
+<div id="portfolio" class="section z-depth-2 scrollspy">
     <!-- Your like button code -->
     <div class="container">
         <div class="row center">
             <a href="#work" class="vp-button black white-text hoverable" title="Scroll to this section">A PORTFOLIO</a>
         </div>
         <div class="row">
-            <div class="row">
-                <button :v-model="category.name" :category="category.name" v-on:click="setCategory(category.name)" v-for="category in portfolio.portfolio.categories" href="#work" class="vp-button small black white-text hoverable" title="Scroll to this section">{{category.name}} ({{category.projects.length}})</button>
+            <div class="col s12 hide-on-med-and-up">
+                <ul class="tabs z-depth-2 tabs-fixed-width">
+                    <li class="tab col s3  black" v-on:click="setCategory(category.name)" v-for="(category, index) in portfolio.portfolio.categories"><a class="white-text"><i :class="category.icon"></i></a></li>
+                </ul>
             </div>
-
-
-
-            <div  v-for="(project, index) in categories.projects" class="col s12 m4 center-align black-text">
-
+            <h5 class="center-align white-text">{{categories[0].description}}</h5>
+            <div class="col s12">
+                <ul class="tabs z-depth-2 tabs-fixed-width hide-on-small-only">
+                    <li class="tab col s3  black" v-on:click="setCategory(category.name)" v-for="(category, index) in portfolio.portfolio.categories"><a class="white-text">{{category.name}} ({{category.projects.length}})</a></li>
+                </ul>
+            </div>
+            <div v-for="(project, index) in categories[0].projects" class="col s12 m4 center-align black-text">
                 <div class="card white">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" :src="project.image">
+                        <img class="activator responsive-img" :src="project.images[0]">
                     </div>
                     <div class="card-content project-content">
                         <span class="card-title activator grey-text text-darken-4">{{project.title}}<i class="material-icons right">more_vert</i></span>
-                        <span class="chip black white-text">{{project.theme}}</span>
-                        <p><a href="#">{{project.year}}</a></p>
+                        <span class="chip black white-text">{{project.year}}</span>
+                        </br> </br>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">{{project.name}}<i class="material-icons right">close</i></span>
@@ -28,35 +32,10 @@
                         <hr>
                         <span v-for="tag in project.tags" class="chip black white-text hoverable">{{tag}}</span>
                         <hr>
-                        <a v-if="project.link" :href="project.link" target="_blank" class="green btn"><i class="material-icons right">link</i> Link</a>
+                        <router-link :to="project.link" v-if="project.link"  class="green btn"><i class="material-icons right">link</i></router-link>
                     </div>
                 </div>
             </div>
-
-<!--
-
-
-            <div v-for="(project, index) in projects.projects"  class="col s12 m4 center-align black-text">
-                <div class="card white">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" :src="images[index]">
-                    </div>
-                    <div class="card-content project-content">
-                        <span class="card-title activator grey-text text-darken-4">{{project.title}}<i class="material-icons right">more_vert</i></span>
-                        <span class="chip black white-text">{{project.theme}}</span>
-                        <p><a href="#">{{project.year}}</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">{{project.name}}<i class="material-icons right">close</i></span>
-                        <p class="flow-text left-align">{{project.desc}}</p>
-                        <hr>
-                        <span v-for="tag in project.tags" class="chip black white-text hoverable">{{tag}}</span>
-                        <hr>
-                        <a v-if="project.link" :href="project.link" target="_blank" class="green btn"><i class="material-icons right">link</i> Link</a>
-                    </div>
-                </div>
-            </div>
-            -->
         </div>
     </div>
 </div>

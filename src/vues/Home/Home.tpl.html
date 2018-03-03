@@ -1,8 +1,17 @@
 <div id="app">
+    <div class="preloader">
+        <div class="preloader__status">
+            <div status class="preloader__status-text">I'm {{loaded}} % done!</div>
+            <div class="preloader__status-loader">
+                <div loader :style="loadStyle" class="preloader__status-bar"></div>
+            </div>
+        </div>
+    </div>
     <Navbar></Navbar>
     <AboutSlider></AboutSlider>
     <Mindset></Mindset>
     <Experience></Experience>
     <Work></Work>
+    <Reach></Reach>
     <Footer></Footer>
 </div>

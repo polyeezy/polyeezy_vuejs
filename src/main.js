@@ -1,30 +1,40 @@
 import Vue from 'vue'
-import App from './vues/Home/Home.vue'
-import NotFound from './vues/Home/Home.vue'
+import VueRouter from 'vue-router'
+import Container from './components/Container'
+import Home from './vues/Home/Home.vue';
 
 require('../node_modules/materialize-css/dist/css/materialize.min.css');
 require('../node_modules/materialize-css/dist/js/materialize.min.js');
 
 Vue.config.productionTip = false;
 
-const routes = {
-    '/': App,
-    '/portfolio': App
-}
+Vue.use(VueRouter);
+
+
+const routes = [
+    {
+        path: '/',
+        component: Home,
+        name: 'home'
+    },
+    {
+        path: '/:cat/:item',
+        component: require('./vues/Portfolio/Portfolio').default,
+        name: 'portfolio'
+    },
+    {
+        path: '*',
+        redirect: '/',
+    }
+];
+
+var router = new VueRouter({
+    mode: 'history',
+    routes
+});
 
 new Vue({
-  render: h => h(App)
+    router,
+    render: h => h(Container)
 }).$mount('#app')
 
-new Vue({
-    el: '#app',
-    data: {
-        currentRoute: window.location.pathname
-    },
-    computed: {
-        ViewComponent () {
-            return routes[this.App] || NotFound
-        }
-    },
-    render (h) { return h(this.ViewComponent) }
-})

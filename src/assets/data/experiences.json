@@ -3,55 +3,76 @@
     "title" : "GSK",
     "subtitle" : "Hackathon participant",
     "date" : "Jan 17th 2018 - Jan 20th 2018",
-    "text" : ""
+    "text" : "Within only 3 days, we were able to design a solution which allows GSK members to book in a simple way a room for a meeting, depending their location and their amenities.",
+    "image" : "/images/experiences/GSK.jpg"
   },
   {
-    "title" : "EPITECH (current)",
+    "title" : "Agile Training",
+    "subtitle" : "WemanityBE",
+    "date" : "Jan 17th 2018 - Jan 20th 2018",
+    "text" : "WemanityBE offered us a full training stack to help us become more Agil",
+    "image" : "/images/experiences/download.jpg"
+  },
+  {
+    "title" : "EPITECH Brussels Campus)",
     "subtitle" : "M1 in Computer Software Engineering",
     "date" : "2018",
-    "text" : ""
+    "text" : "A program focused on innovation and entrepreneurship.",
+    "image" : "images/experiences/epitech.jpg"
   },
   {
     "title" : "EPITECH",
     "subtitle" : "Bachelor in Computer Software Engineering",
     "date" : "2017",
-    "text" : ""
+    "text" : "Epitech delivers a five-year curriculum split in two parts: the first three years corresponds to a Bachelor in computer science and the last 2 years to expert in information technology",
+    "image" : "images/experiences/epitech.jpg"
+
   },
   {
     "title" : "INSTANT SYSTEM",
     "subtitle" : "Full Stack Developper internship",
     "date" : "2017",
-    "text" : "My internship was initially to migrate a carpooling site developed in TYPO3 to Wordpress. This migration involves the integration of a graphic chart and the development of an administrator interface."
+    "text" : "My internship was initially to migrate a carpooling site developed in TYPO3 to Wordpress. This migration involves the integration of a graphic chart and the development of an administrator interface.",
+    "image" : "images/experiences/IS-logo.png"
+
   },
   {
     "title" : "E-POMPIERS",
     "subtitle" : "Hackathon participant",
     "date" : "May 2016",
-    "text" : "Having contributed to a Hackathon organized by Epitech, my role was to create a tool to facilitate the management of stock within a fire station. With this solution, the user can dynamically add and remove an object from a database and have an overview of the current stock."
+    "text" : "Having contributed to a Hackathon organized by Epitech, my role was to create a tool to facilitate the management of stock within a fire station. With this solution, the user can dynamically add and remove an object from a database and have an overview of the current stock.",
+    "image" : "images/experiences/hackapomier.jpg"
+
   },
   {
     "title" : "ZIPA",
     "subtitle" : "Full Stack Developper internship",
     "date" : "Jan - Aug 2016",
-    "text" : "The first part of my 2nd year internship at EPITECH consisted of optimizing the daily update of elements in a database. Subsequently, I was able to completely rebuild an e-commerce website. The front end includes authentication, display of products in their categories, presentation of a retail item, addition to the shopping cart and integration of a payment module. For the back-end part, I was able to develop a module for generating invoices and a voucher system, allowing to change the status of orders made on the site (sent / paid / shipped)"
+    "text" : "The first part of my 2nd year internship at EPITECH consisted of optimizing the daily update of elements in a database. Subsequently, I was able to completely rebuild an e-commerce website. The front end includes authentication, display of products in their categories, presentation of a retail item, addition to the shopping cart and integration of a payment module. For the back-end part, I was able to develop a module for generating invoices and a voucher system, allowing to change the status of orders made on the site (sent / paid / shipped)",
+    "image" : "images/experiences/sochic-16x9.jpg"
   },
   {
     "title": "ProLinked",
     "subtitle" : "Freelance",
     "date" : "2016",
-    "text": "In order to materialize the idea of two business school students, I initially realized a pre-launch page of the service. Subsequently, I was able to create an authentication system (registration, login, profile management) combined with a system of SMS verification and automated e-mail sending."
+    "text": "In order to materialize the idea of two business school students, I initially realized a pre-launch page of the service. Subsequently, I was able to create an authentication system (registration, login, profile management) combined with a system of SMS verification and automated e-mail sending.",
+    "image" : "images/experiences/prolinked-16x9.jpg"
   },
   {
     "title" : "EPITECH",
     "subtitle" : "Started Epitech Computer Software Engineering School",
     "date" : "2013",
-    "text" : ""
+    "text" : "Epitech delivers a five-year curriculum split in two parts: the first three years corresponds to a Bachelor in computer science and the last 2 years to expert in information technology",
+    "image" : "images/experiences/epitech.jpg"
+
   },
   {
     "title" : "BTS SIO",
     "subtitle" : "Started two-year technical degree IT Services to Organizations",
     "date" : "2013",
-    "text" : "Learning the Basics of Programming / Networkings"
+    "text" : "Learning the Basics of Programming / Networkings",
+    "image" : "images/experiences/bts_sio.png"
+
   }
 
 ]

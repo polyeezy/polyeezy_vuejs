@@ -13,7 +13,8 @@
     "materialize-css": "^0.100.2",
     "path": "^0.12.7",
     "vue": "^2.5.13",
-    "vue-head": "^2.0.12"
+    "vue-head": "^2.0.12",
+    "vue-router": "^3.0.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.0-alpha.11",
