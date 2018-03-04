@@ -1,5 +1,5 @@
 <template src="./Mindset.tpl.html"></template>
-<style>
+<style scoped>
     .page{
         height: 300vh;
     }
@@ -13,13 +13,13 @@
     }
 
     .top-fixed{
-        position: absolute;
-        top: -25px;
+        position: absolute !important;
+        top: -28px;
         left: 0;
         right: 0;
         margin-left: auto;
         margin-right: auto;
-        width: 50px;
+        width: 56px;
     }
 
     .card .card-content{
