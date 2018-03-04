@@ -1,0 +1,309 @@
+[
+  {
+    "title": "Valérian Polizzi Portfolio",
+    "year": "2018",
+    "link": "2018-portfolio",
+    "headline": "A VueJs website",
+    "desc": "I wanted my portfolio to reflect my personnality, skills and will to innovate. ",
+    "images": [
+      "images/portfolio/valerianpolizzi-1.png"
+    ],
+    "theme": "WEB",
+    "features": [
+      {
+        "name": "Genius integration",
+        "description": "Genius allows users to annotate content"
+      },
+      {
+        "name": "Disqus integration",
+        "description": "A co"
+      },
+      {
+        "name": "Dynamic portfolio items",
+        "description": "A co"
+      }
+    ],
+    "tags": [
+      "HTML",
+      "CSS",
+      "VUEJS",
+      "MATERIALIZECSS"
+    ]
+  },
+  {
+    "title": "Streetr - Landing Page",
+    "theme": "MOBILE",
+    "year": "2018",
+    "link": "streetr",
+    "desc": "Streetr landing page",
+    "images": [
+      "images/portfolio/streetr-1.png"
+    ],
+    "tags": [
+      "HTML",
+      "CSS",
+      "JAVASCRIPT",
+      "MATERIALIZECSS",
+      "Google Maps"
+    ]
+  },
+  {
+    "title": "Barde WebApp",
+    "theme": "WEB",
+    "year": "2018",
+    "link": "",
+    "desc": "Barde web player application",
+    "images": [
+      "images/portfolio/barde-webapp-1.png"
+    ],
+    "tags": [
+      "HTML",
+      "CSS",
+      "VUEJS",
+      "MATERIALIZECSS"
+    ]
+  },
+  {
+    "title": "Covoit83",
+    "theme": "WEB",
+    "year": "2017",
+    "link": "https://covoit83.fr",
+    "desc": "Wordpress plugin & theme development",
+    "images": [
+      "images/portfolio/covoit.png"
+    ],
+    "tags": [
+      "HTML",
+      "CSS",
+      "WORDPRESS THEME",
+      "WORDPRESS PLUGIN",
+      "SWAGGER",
+      "KIBANA",
+      "JENKINS"
+    ]
+  },
+  {
+    "title": "R'pro'Covoiturage",
+    "theme": "WEB",
+    "year": "2017",
+    "link": "https://rprocovoiturage.boogi.fr/",
+    "images": [
+      "images/portfolio/rpro-1.png"
+    ],
+    "desc": "Wordpress plugin & theme development",
+    "tags": [
+      "HTML",
+      "CSS",
+      "WORDPRESS THEME",
+      "WORDPRESS PLUGIN"
+    ]
+  },
+  {
+    "title": "Insurance comparator",
+    "theme": "WEB",
+    "year": "2017",
+    "link": "",
+    "images": [
+      "images/portfolio/comparatif-1.png",
+      "images/portfolio/comparatif-2.png"
+    ],
+    "desc": "",
+    "tags": [
+      "HTML",
+      "CSS",
+      "ANGULAR2"
+    ]
+  },
+  {
+    "title": "Barde.io",
+    "theme": "WEB",
+    "year": "2018",
+    "link": "http://www.barde.io",
+    "images": [
+      "images/portfolio/bardeio.png"
+    ],
+    "desc": "A vuejs website",
+    "tags": [
+      "HTML",
+      "CSS",
+      "ANGULAR2",
+      "MATERIALIZECSS"
+    ]
+  },
+  {
+    "title": "ProLinked",
+    "theme": "WEB",
+    "year": "2016",
+    "images": [
+      "images/portfolio/prolinked.png"
+    ],
+    "link": "http://prolinked.fr/",
+    "desc": "A social network skeleton",
+    "tags": [
+      "HTML",
+      "CSS",
+      "PHP",
+      "API",
+      "SMS"
+    ]
+  },
+  {
+    "title": "Stock Manager",
+    "theme": "WEB",
+    "year": "2016",
+    "link": "http://workflow.valerianpolizzi.fr/web/stock_material",
+    "images": [
+      "images/portfolio/stock-manager.png"
+    ],
+    "desc": "An angular2 webapp (E-POMPIER Hackathon)",
+    "tags": [
+      "HTML",
+      "CSS",
+      "ANGULAR2",
+      "MATERIALIZECSS"
+    ]
+  },
+  {
+    "title": "Sochic Bijoux",
+    "theme": "WEB",
+    "year": "2016",
+    "link": "http://sochicbijoux.com/",
+    "images": [
+      "images/portfolio/sochic.png"
+    ],
+    "desc": "E-commerce from scratch (front-end + back-end)",
+    "tags": [
+      "HTML",
+      "CSS",
+      "PHP",
+      "BOOTSTRAP",
+      "MYSQL"
+    ]
+  },
+  {
+    "title": "KanyeToTheBruh",
+    "theme": "WEB",
+    "year": "2015",
+    "link": "https://polyeezy.github.io/KanyeToTheBruh/",
+    "images": [
+      "images/portfolio/screenshot.png"
+    ],
+    "desc": " ¯\\_(ツ)_/¯",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JAVASCRIPT"
+    ]
+  },
+  {
+    "title": "Social Closet",
+    "theme": "WEB",
+    "year": "2014",
+    "link": "https://polyeezy.github.io/sliding-closet/",
+    "images": [
+      "images/portfolio/screenshot-1.png"
+    ],
+    "desc": "Back in the days, I used this as a footer in my old portfolio",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JAVASCRIPT"
+    ]
+  },
+  {
+    "title": "Dadzcover",
+    "theme": "WEB",
+    "year": "2011",
+    "link": "",
+    "images": [
+      "images/portfolio/dadzcover.png"
+    ],
+    "desc": "My first ever web experimentation. Responsive was yet in the dictionnary",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JAVASCRIPT"
+    ]
+  },
+  {
+    "title": "Streetr - Prototype",
+    "theme": "PROTO",
+    "year": "2018",
+    "link": "https://marvelapp.com/a9i0jje",
+    "images": [
+      "images/portfolio/streetr-proto.png"
+    ],
+    "desc": "An interactive application prototype made with Marvel and Sketch",
+    "tags": [
+      "SKETCH",
+      "MARVEL"
+    ]
+  },
+  {
+    "title": "Instant System Internship Report",
+    "theme": "PPT",
+    "year": "2018",
+    "link": "https://www.slideshare.net/ValrianPOLIZZI/soutance-stage-tek3-valerian-polizzi-2017",
+    "images": [
+      "images/portfolio/report-sochic.png"
+    ],
+    "desc": "An oral report for my second internship in Epitech",
+    "tags": [
+      "POWERPOINT",
+      "PITCH"
+    ]
+  },
+  {
+    "title": "Sochic Bijoux - Report",
+    "theme": "PPT",
+    "year": "2016",
+    "link": "https://fr.slideshare.net/ValrianPOLIZZI/soutenance-stage-epitech-valrian-polizzi-zipa",
+    "images": [
+      "images/portfolio/is-report.png"
+    ],
+    "desc": "An oral report for my second internship in Epitech",
+    "tags": [
+      "POWERPOINT",
+      "PITCH"
+    ]
+  },
+  {
+    "title": "Polyeezy - Intro",
+    "theme": "VIDEO",
+    "year": "2014",
+    "link": "https://www.youtube.com/watch?v=KSj8x77fkcA",
+    "images": [
+      "images/portfolio/polyeezy.png"
+    ],
+    "desc": "Without any purpose, I wanted to try After Effects",
+    "tags": [
+      "AFTER EFFECTS"
+    ]
+  },
+  {
+    "title": "deskOteque",
+    "theme": "Flash",
+    "year": "2018",
+    "link": "https://www.newgrounds.com/portal/view/501467",
+    "images": [
+      "images/portfolio/DeskOtek.png"
+    ],
+    "desc": "My first line of code. I was 14 :)",
+    "tags": [
+      "FLASH CS5"
+    ]
+  },
+  {
+    "title": "Kanye West's MPC : LLD",
+    "theme": "Flash",
+    "year": "2009",
+    "link": "https://www.newgrounds.com/portal/view/501467",
+    "images": [
+      "images/portfolio/mpc_kanye.png"
+    ],
+    "desc": "My first line of code. I was 14 :)",
+    "tags": [
+      "FLASH CS5"
+    ]
+  }
+]

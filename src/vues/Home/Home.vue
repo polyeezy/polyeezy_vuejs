@@ -1,8 +1,12 @@
 <template src="./Home.tpl.html"></template>
-<style>
+<style scoped>
     @font-face {
         font-family: 'Work Sans';
         src: url('/fonts/WorkSans/WorkSans-Regular.otf') format("opentype");
+    }
+
+    body{
+        background: #F8EE69;
     }
 </style>
 <script>

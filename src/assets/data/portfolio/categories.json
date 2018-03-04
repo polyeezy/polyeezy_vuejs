@@ -1,0 +1,22 @@
+[
+  {
+    "name": "WEB",
+    "icon": "fas fa-globe"
+  },
+  {
+    "name": "MOBILE",
+    "icon": "fas fa-mobile"
+  },
+  {
+    "name": "REPORT",
+    "icon": "fas fa-file-powerpoint"
+  },
+  {
+    "name": "MEDIA",
+    "icon": "fas fa-images"
+  },
+  {
+    "name": "CONCEPT",
+    "icon": "fas fa-folder"
+  }
+]
