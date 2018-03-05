@@ -18,9 +18,9 @@ const routes = [
         name: 'home'
     },
     {
-        path: '/:portfolio',
-        component: require('./vues/Portfolio/Portfolio').default,
-        name: 'portfolio'
+        path: '/portfolio/:cat',
+        component: Home,
+        name: 'portfolio-cat'
     },
     {
         path: '*',

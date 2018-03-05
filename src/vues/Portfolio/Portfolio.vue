@@ -1,36 +1,30 @@
 <template>
-    <div id="portfolio-item">
+    <div class="portfolio-item">
         <div class="container">
             <div class="col s12">
-                <h3>{{currentItem[0].title}} - {{currentItem[0].year}}</h3>
-                <h5>{{currentItem[0].headline}}</h5>
+                <h3>{{item.title}} - {{item.year}}</h3>
+                <h5>{{item.headline}}</h5>
                 <div class="row">
 
                 </div>
                 <div class="carousel carousel-slider">
-                    <a v-for="image in currentItem[0].images" :key="image" class="carousel-item" href="#one!"><img :src="image"></a>
-                    <a v-for="image in currentItem[0].images" :key="image" class="carousel-item" href="#one!"><img :src="image"></a>
+                    <a v-for="image in item.images" :key="image" class="carousel-item" href="#one!"><img :src="image"></a>
                 </div>
             </div>
             <div class="row">
                 <div class="col l8">
-                    <h3>Description</h3>
-
-                    <p class="flow-text">{{currentItem[0].desc}}</p>
+                    <p class="flow-text">{{item.desc}}</p>
 
                     <h3>Features</h3>
                     <ul class="row">
-                        <li v-for="feature in currentItem[0].features" :key="feature.name"><h5 class="feature-title">- {{feature.name}}</h5></li>
+                        <li v-for="feature in item.features" :key="feature.name"><h5 class="feature-title">- {{feature.name}}</h5></li>
                     </ul>
 
                 </div>
                 <div class="col l4">
                     <h3>Skills</h3>
-                    <ul>
-                        <li>
-                            <span v-for="skill in currentItem[0].tags" :key="skill" class="chip black white-text">{{skill}}</span>
-                        </li>
-                    </ul>
+
+                            <span v-for="skill in item.tags" :key="skill" class="chip black white-text">{{skill}}</span>
 
                 </div>
             </div>
@@ -45,7 +39,6 @@
         <div class="row white">
 
             <div class="container">
-                <div id="disqus_thread"></div>
             </div>
 
         </div>
@@ -55,14 +48,20 @@
     </div>
 </template>
 
-<style>
+<style scoped>
 
     ul li{
         padding-left: 10px;
     }
 
-    h3, .feature-title{
+    h3{
         color: white;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    h5{
+        margin-top: 0;
     }
 
     h5, p, .feature-title{
@@ -92,7 +91,7 @@
         background: #60657a !important;
     }
 
-    #portfolio-item{
+    .portfolio-item{
         padding-top: 100px;
 
     }
@@ -120,17 +119,15 @@
 
 <script>
 
-    import Portfolio from '../../assets/data/portfolio/projects'
     import $ from 'jquery'
     export default {
         name: 'Portfolio',
         data () {
             return {
-                Portfolio : Portfolio,
-                currentItem : {},
-                currentLink : ""
+
             }
         },
+        props: ['item'],
         components: {
 
         },
@@ -151,15 +148,7 @@
 
         },
         methods: {
-            getPath(){
-                this.currentLink = this.$route.params.portfolio;
-            },
-            getPortfolioItem(link){
-                this.currentItem = Portfolio.filter(function (item) {
-                    return item.link.match(link);
-                });
-                console.log(this.currentItem);
-            }
+
         }
     }
 </script>

@@ -2,17 +2,19 @@
     <div class="row">
         <div class="col s12 hide-on-med-and-up">
             <ul class="tabs z-depth-2 tabs-fixed-width">
-                <li v-for="(category) in projects" v-bind:key="category.name"  class="tab col s3  black" v-on:click="setCategory(category)"><a class="white-text"><i :class="category.icon"></i></a></li>
+                <li class="tab col s3  black" v-for="(category) in categories" v-on:click="setCategory(category)" :key="category"><a class="white-text">{{category}}</a></li>
             </ul>
         </div>
         <div class="col s12">
             <ul class="tabs z-depth-2 tabs-fixed-width hide-on-small-only">
-               <li></li>
                 <li class="tab col s3  black" v-for="(category) in categories" v-on:click="setCategory(category)" :key="category"><a class="white-text">{{category}}</a></li>
             </ul>
         </div>
 
+        <transition-group name="card" v-if="!item.show">
+
         <div v-for="(project, index) in currentCategory" v-bind:key="index" class="col s12 m4 center-align black-text">
+
             <div class="card white">
                 <div class="card-image waves-effect waves-block waves-light">
                     <img class="activator responsive-img" :src="project.images[0]">
@@ -27,22 +29,37 @@
                     <hr>
                     <span v-for="(tag, index) in project.tags" v-bind:key="index" class="chip black white-text hoverable">{{tag}}</span>
                     <hr>
-                    <router-link :to="project.link" v-if="project.link"  class="green btn"><i class="material-icons right">link</i></router-link>
+                    <button v-on:click="setItem(project)" class="green btn"><i class="material-icons right">link</i></button>
                 </div>
             </div>
         </div>
+        </transition-group>
+
+        <transition name="card">
+            <PortfolioItem v-if="item.show" :item="item.data"></PortfolioItem>
+        </transition>
     </div>
 </template>
 
 <style>
-
+    .card-item {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .card-enter-active, .card-leave-active {
+        transition: all 1s;
+    }
+    .card-enter, .card-leave-to /* .list-leave-active below version 2.1.8 */ {
+        opacity: 0;
+        transform: translateY(30px);
+    }
 </style>
 
 <script>
 
     import $ from 'jquery';
     import uniq from 'lodash/uniq'
-
+    import PortfolioItem from '../vues/Portfolio/Portfolio'
     import PortfolioProjects from '../assets/data/portfolio/projects'
 
     export default {
@@ -51,23 +68,41 @@
             return {
                 projects : PortfolioProjects,
                 currentCategory : {},
-                categories : {}
+                categories : {},
+                item : {
+                    show : false,
+                    data : {}
+                }
             }
         },
         components: {
-
+            PortfolioItem
         },
         mounted: function () {
             $('ul.tabs').tabs();
 
+
         },
         beforeMount: function(){
             this.categories = this.getUniqueCategories();
+            this.setCategory(this.getUniqueCategories()[0]);
 
-            this.setCategory(this.categories[0]);
+
+
         },
         methods: {
+
+            setItem(item){
+
+            this.item.data = item;
+            this.item.show = true;
+            console.log(this.item);
+            },
+
             setCategory(cat) {
+
+                this.item.show = false;
+
                 this.currentCategory = this.projects.filter(function (item) {
                     return item.theme.match(cat)
                 });

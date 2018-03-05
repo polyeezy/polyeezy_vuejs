@@ -18,7 +18,9 @@
     import Reach from '../../vues/Reach/Reach'
     import Footer from '../../components/Footer/Footer.vue'
 
+
     import $ from 'jquery'
+    import Materialize from 'materialize-css/dist/js/materialize.min'
 
     export default {
         name: 'app',
@@ -50,6 +52,16 @@
         },
         mounted: function () {
 
+            var options = [
+                {
+                    selector: '#human-being', offset: window.innerHeight, function(){
+                        this.$router.replace('about');
+                        console.log('hu');
+                    }
+                },
+            ];
+            Materialize.scrollFire(options);
+
             this.preloader = $('.preloader');
             this.removeScrolling();
             this.startLoading();
@@ -61,8 +73,13 @@
                 $('#feature').click(function(){
                     $('.tap-target').tapTarget('open');
                 });
-
             });
+
+
+            console.log(window.innerHeight);
+
+
+
         },
         methods: {
             removeScrolling(){
