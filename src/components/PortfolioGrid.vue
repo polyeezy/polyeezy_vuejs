@@ -11,9 +11,13 @@
             </ul>
         </div>
 
-        <transition-group name="card" v-if="!item.show">
 
-        <div v-for="(project, index) in currentCategory" v-bind:key="index" class="col s12 m4 center-align black-text">
+        <transition name="card">
+            <PortfolioItem v-if="item.show" :index="index" :item="item.data"></PortfolioItem>
+        </transition>
+
+        <transition-group name="card">
+        <div v-for="(project, index) in currentCategory" v-if="!item.show || item.data != project" v-bind:key="index" class="col s12 m4 center-align black-text">
 
             <div class="card white">
                 <div class="card-image waves-effect waves-block waves-light">
@@ -35,9 +39,6 @@
         </div>
         </transition-group>
 
-        <transition name="card">
-            <PortfolioItem v-if="item.show" :item="item.data"></PortfolioItem>
-        </transition>
     </div>
 </template>
 

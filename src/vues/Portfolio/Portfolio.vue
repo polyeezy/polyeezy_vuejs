@@ -12,39 +12,23 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col l8">
+                <div class="col l12">
+                    <h3>Description</h3>
+
                     <p class="flow-text">{{item.desc}}</p>
 
                     <h3>Features</h3>
-                    <ul class="row">
-                        <li v-for="feature in item.features" :key="feature.name"><h5 class="feature-title">- {{feature.name}}</h5></li>
-                    </ul>
-
-                </div>
-                <div class="col l4">
+                        <p v-for="feature in item.features" :key="feature.name" class="feature-title">{{feature.name}}</p>
                     <h3>Skills</h3>
 
-                            <span v-for="skill in item.tags" :key="skill" class="chip black white-text">{{skill}}</span>
+                    <span v-for="skill in item.tags" :key="skill" class="chip black white-text">{{skill}}</span>
+                </div>
+                <div class="col l4">
+
 
                 </div>
             </div>
-            <div class="row">
-                <div class="col s12 white">
-
-                </div>
-
-            </div>
         </div>
-
-        <div class="row white">
-
-            <div class="container">
-            </div>
-
-        </div>
-
-
-
     </div>
 </template>
 
@@ -127,7 +111,7 @@
 
             }
         },
-        props: ['item'],
+        props: ['item', 'index'],
         components: {
 
         },
