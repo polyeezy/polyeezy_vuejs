@@ -41,6 +41,8 @@
 
 <style scoped>
 
+
+
     .responsive-img{
         -moz-transition: all 0.3s;
         -webkit-transition: all 0.3s;
@@ -93,6 +95,13 @@
         mounted: function () {
             $('ul.tabs').tabs();
 
+            var max = 0;
+            $('.project-content').each(function () {
+                max = max < $(this).height() ? $(this).height() : max;
+            });
+            $('.project-content').each(function () {
+                $(this).height(max);
+            });
 
         },
         beforeMount: function(){
@@ -140,13 +149,7 @@
                     return item.theme.match(cat)
                 });
 
-                var max = 0;
-                $('.project-content').each(function () {
-                    max = max < $(this).height() ? $(this).height() : max;
-                });
-                $('.project-content').each(function () {
-                    $(this).height(max);
-                });
+
             },
             getUniqueCategories(){
                 return uniq(this.projects.map(p => p.theme))

@@ -28,6 +28,7 @@
 
 <style scoped>
 
+
     ul li{
         padding-left: 10px;
     }
@@ -82,14 +83,6 @@
     }
 
 
-    .carousel .indicators{
-        background-color: rgba(10, 10, 10, 0.1);
-
-    }
-
-    .carousel .indicators .indicator-item.active {
-        background-color: black;
-    }
 
 </style>
 
@@ -100,7 +93,6 @@
         name: 'Portfolio',
         data () {
             return {
-                item : this.props.item
             }
         },
         props: ['item', 'index'],
@@ -112,7 +104,6 @@
 
         },
         beforeMount: function(){
-            item = this.props.item;
             var d = document, s = d.createElement('script');
             s.src = 'https://valerianpolizzi.disqus.com/embed.js';
             s.setAttribute('data-timestamp', +new Date());

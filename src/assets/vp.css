@@ -93,6 +93,17 @@ nav{
     padding-top: 80px;
 }
 
+
+
+.indicators .indicator-item{
+    border: 1px solid black !important;
+}
+
+.indicators .indicator-item.active {
+    background-color: black !important;
+}
+
+
 .carousel.carousel-slider .carousel-fixed-item.with-indicators{
     bottom: 320px !important;
 }
@@ -105,12 +116,4 @@ nav{
     min-height: 23px;
     min-width: 14px;
     max-height: 250px;
-}
-
-.slider .indicators .indicator-item.active{
-    background-color: black !important;
-}
-
-.carousel .indicators .indicator-item.active{
-    background-color: black !important;
 }
