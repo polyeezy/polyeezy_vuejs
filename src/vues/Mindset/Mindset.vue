@@ -11,6 +11,9 @@
         padding-top: 40px;
 
     }
+    .mindset-container{
+        padding-bottom: 30px;
+    }
 
     .top-fixed{
         position: absolute !important;
@@ -23,7 +26,6 @@
     }
 
     .card .card-content{
-        padding-bottom: 0;
     }
 
     .card-mind{
