@@ -51,12 +51,13 @@
             }
         },
         mounted: function () {
-
+            $('html, body').animate({
+                scrollTop: 0
+            });
             var options = [
                 {
                     selector: '#human-being', offset: window.innerHeight, function(){
-                        this.$router.replace('about');
-                        console.log('hu');
+
                     }
                 },
             ];
@@ -78,17 +79,12 @@
                 });
             });
 
-
-            console.log(window.innerHeight);
-
-
-
         },
         methods: {
             removeScrolling(){
                 $('html, body').animate({
                     scrollTop: 0
-                }, 800);
+                });
                 this.body.css('overflow','hidden');
             },
             startLoading(){
@@ -127,7 +123,6 @@
                 this.animateWebsite();
             },
             animateWebsite(){
-                console.log('lets get pretty');
             }
         }
     }

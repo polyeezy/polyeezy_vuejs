@@ -11,6 +11,10 @@
             </div>
             <div class="row">
                 <div class="col l12">
+                    <p v-if="item.link">
+                        <a :href="item.link" target="_blank" class="waves-effect waves-light btn"><i class="material-icons right">link</i>Visit {{item.title}}</a>
+                    </p>
+
                     <h3>Description</h3>
 
                     <p class="flow-text">{{item.desc}}</p>

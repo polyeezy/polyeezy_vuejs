@@ -2,8 +2,7 @@
   {
     "title": "Portfolio",
     "year": "2018",
-    "link": "2018-portfolio",
-    "headline": "A VueJs website",
+    "link": "http://www.valerianpolizzi.fr",
     "desc": "I wanted my portfolio to reflect my personnality, skills and will to innovate. ",
     "images": [
       "images/portfolio/valerianpolizzi-1.png",
@@ -39,7 +38,7 @@
     "headline": "A pure HTML website",
     "theme": "WEB",
     "year": "2018",
-    "link": "streetr",
+    "link": "http://wwww.streetr.eu",
     "features": [
       {
         "name": "Dynamic slider for each path",
@@ -73,7 +72,6 @@
     "title": "Barde WebApp",
     "theme": "WEB",
     "year": "2018",
-    "link": "",
     "desc": "Barde WebApp is a web client for Barde EIP.",
     "features": [
       {
@@ -220,7 +218,6 @@
     "images": [
       "images/portfolio/prolinked.png"
     ],
-    "link": "http://prolinked.fr/",
     "headline": "A PHP social network",
     "desc" : "In order to materialize the idea of two business school students, I initially realized a pre-launch page of the service. Subsequently, I was able to create an authentication system (registration, login, profile management) combined with a system of SMS verification and automated e-mail sending.",
     "tags": [
@@ -249,7 +246,6 @@
     "title": "Stock Manager",
     "theme": "WEB",
     "year": "2016",
-    "link": "http://workflow.valerianpolizzi.fr/web/stock_material",
     "images": [
       "images/portfolio/stock-manager.png"
     ],
