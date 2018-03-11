@@ -5,7 +5,7 @@
         src: url('/fonts/WorkSans/WorkSans-Regular.otf') format("opentype");
     }
 
-    body{
+    body, html{
         background: #F8EE69;
     }
 </style>

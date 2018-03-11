@@ -12,7 +12,7 @@
 
     }
     .mindset-container{
-        padding-bottom: 30px;
+        margin-bottom: Z0px;
     }
 
     .top-fixed{
