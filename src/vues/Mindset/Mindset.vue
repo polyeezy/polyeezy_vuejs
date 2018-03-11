@@ -11,9 +11,7 @@
         padding-top: 40px;
 
     }
-    .mindset-container{
-        margin-bottom: Z0px;
-    }
+
 
     .top-fixed{
         position: absolute !important;
@@ -34,6 +32,7 @@
         padding-left: 10px;
         padding-right: 10px;
         padding-bottom: 40px;
+        margin-bottom: 40px;
     }
 
     .card .card-title{

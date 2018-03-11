@@ -1,5 +1,5 @@
 <template src="./Home.tpl.html"></template>
-<style scoped>
+<style>
     @font-face {
         font-family: 'Work Sans';
         src: url('/fonts/WorkSans/WorkSans-Regular.otf') format("opentype");
