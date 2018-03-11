@@ -1,6 +1,6 @@
 [
   {
-    "title": "Valérian Polizzi Portfolio",
+    "title": "Portfolio",
     "year": "2018",
     "link": "2018-portfolio",
     "headline": "A VueJs website",
@@ -10,7 +10,6 @@
       "images/portfolio/vp2.png",
       "images/portfolio/vp3.png",
       "images/portfolio/vp4.png"
-
     ],
     "theme": "WEB",
     "features": [
@@ -33,13 +32,11 @@
       "VUEJS",
       "MATERIALIZECSS",
       "RESPONSIVE"
-
     ]
   },
   {
     "title": "Streetr.eu",
     "headline": "A pure HTML website",
-
     "theme": "WEB",
     "year": "2018",
     "link": "streetr",
@@ -60,10 +57,6 @@
       "images/portfolio/streetr-3.png",
       "images/portfolio/streetr-4.png",
       "images/portfolio/streetr-5.png"
-
-
-
-
     ],
     "tags": [
       "HTML",
@@ -81,7 +74,18 @@
     "theme": "WEB",
     "year": "2018",
     "link": "",
-    "desc": "Barde web player application",
+    "desc": "Barde WebApp is a web client for Barde EIP.",
+    "features": [
+      {
+        "name": "Authentification",
+        "description": "Genius allows users to annotate content"
+      },
+      {
+        "name": "Midi player",
+        "description": "A co"
+      }
+    ],
+    "headline": "A VueJs website",
     "images": [
       "images/portfolio/barde-app-1.png",
       "images/portfolio/barde-app-2.png",
@@ -101,10 +105,25 @@
     "theme": "WEB",
     "year": "2017",
     "link": "https://covoit83.fr",
-    "desc": "Wordpress plugin & theme development",
+    "headline": "Wordpress plugin & theme development",
     "images": [
       "images/portfolio/covoit.png"
     ],
+    "features": [
+      {
+        "name": "Authentification",
+        "description": "Genius allows users to annotate content"
+      },
+      {
+        "name": "Trip managment",
+        "description": "A co"
+      },
+      {
+        "name": "Communites managment",
+        "description": "A co"
+      }
+    ],
+    "desc": "Covoit83 is a carpooling platform. Powered by Wordpress, this website relies on a parent plugin and parent theme. ",
     "tags": [
       "HTML",
       "CSS",
@@ -123,28 +142,34 @@
     "images": [
       "images/portfolio/rpro-1.png"
     ],
-    "desc": "Wordpress plugin & theme development",
+    "desc": "R'pro'Covoiturage is a carpooling platform. Powered by Wordpress, this website relies on a parent plugin and parent theme. ",
     "tags": [
       "HTML",
       "CSS",
       "WORDPRESS THEME",
-      "WORDPRESS PLUGIN"
+      "WORDPRESS PLUGIN",
+      "SWAGGER",
+      "KIBANA",
+      "JENKINS"
     ]
   },
   {
     "title": "Insurance comparator",
     "theme": "WEB",
+    "headline": "An AngularJs application",
+    "desc": "By answering few questions, this form allows user to compare insurances offers.",
     "year": "2017",
     "link": "",
     "images": [
       "images/portfolio/comparatif-1.png",
       "images/portfolio/comparatif-2.png"
     ],
-    "desc": "",
     "tags": [
       "HTML",
       "CSS",
       "ANGULAR2"
+    ],
+    "features": [
     ]
   },
   {
@@ -152,6 +177,7 @@
     "theme": "WEB",
     "year": "2018",
     "link": "http://www.barde.io",
+    "headline" : "A VueJs website",
     "images": [
       "images/portfolio/barde-io-1.png",
       "images/portfolio/barde-io-2.png",
@@ -159,14 +185,32 @@
       "images/portfolio/barde-io-4.png",
       "images/portfolio/barde-io-5.png",
       "images/portfolio/barde-io-6.png"
-
     ],
-    "desc": "A vuejs website",
+    "features": [
+      {
+        "name": "Blog post managment",
+        "description": "Genius allows users to annotate content"
+      },
+      {
+        "name": "Newsletter subscription",
+        "description": "A co"
+      },
+      {
+        "name": "Contact form",
+        "description": "A co"
+      },
+      {
+        "name": "Google ReCaptcha"
+
+      }
+    ],
+    "desc": "Barde.io is the landing page for Barde EIP project.",
     "tags": [
       "HTML",
       "CSS",
-      "ANGULAR2",
-      "MATERIALIZECSS"
+      "VueJS",
+      "Mailchimp API",
+      "Google ReCaptcha"
     ]
   },
   {
@@ -177,13 +221,28 @@
       "images/portfolio/prolinked.png"
     ],
     "link": "http://prolinked.fr/",
-    "desc": "A social network skeleton",
+    "headline": "A PHP social network",
+    "desc" : "In order to materialize the idea of two business school students, I initially realized a pre-launch page of the service. Subsequently, I was able to create an authentication system (registration, login, profile management) combined with a system of SMS verification and automated e-mail sending.",
     "tags": [
       "HTML",
       "CSS",
       "PHP",
       "API",
       "SMS"
+    ],
+    "features": [
+      {
+        "name": "Authentification",
+        "description": "Genius allows users to annotate content"
+      },
+      {
+        "name": "SMS Verification",
+        "description": "A co"
+      },
+      {
+        "name": "Social relationships",
+        "description": "A co"
+      }
     ]
   },
   {
@@ -194,7 +253,18 @@
     "images": [
       "images/portfolio/stock-manager.png"
     ],
-    "desc": "An angular2 webapp (E-POMPIER Hackathon)",
+    "headline": "An AngularJs Webapp",
+    "desc": "Having contributed to a Hackathon organized by Epitech, my role was to create a tool to facilitate the management of stock within a fire station. With this solution, the user can dynamically add and remove an object from a database and have an overview of the current stock.",
+    "features" : [
+      {
+        "name": "Item registration",
+        "description": "Genius allows users to annotate content"
+      },
+      {
+        "name": "Stock Overview",
+        "description": "Genius allows users to annotate content"
+      }
+    ],
     "tags": [
       "HTML",
       "CSS",
@@ -210,24 +280,58 @@
     "images": [
       "images/portfolio/sochic.png"
     ],
-    "desc": "E-commerce from scratch (front-end + back-end)",
+    "headline": "A PHP E-commerce platform",
+    "desc" : "The first part of my 2nd year internship at EPITECH consisted of optimizing the daily update of elements in a database. Subsequently, I was able to completely rebuild an e-commerce website. The front end includes authentication, display of products in their categories, presentation of a retail item, addition to the shopping cart and integration of a payment module. For the back-end part, I was able to develop a module for generating invoices and a voucher system, allowing to change the status of orders made on the site (sent / paid / shipped)",
     "tags": [
       "HTML",
       "CSS",
       "PHP",
       "BOOTSTRAP",
       "MYSQL"
+    ],
+    "features": [
+      {
+        "name": "Authentification",
+        "description": "Genius allows users to annotate content"
+      },
+      {
+        "name": "Shopping Cart ",
+        "description": "A co"
+      },
+      {
+        "name": "Orders managment",
+        "description": "A co"
+      },
+      {
+        "name": "Items managment",
+        "description": "A co"
+      },
+      {
+        "name": "Orders managment",
+        "description": "A co"
+      },
+      {
+        "name": "Bills managment",
+        "description": "A co"
+      }
     ]
   },
   {
     "title": "KanyeToTheBruh",
+    "headline": "A pure HTML website",
     "theme": "WEB",
     "year": "2015",
     "link": "https://polyeezy.github.io/KanyeToTheBruh/",
     "images": [
       "images/portfolio/screenshot.png"
     ],
-    "desc": " ¯\\_(ツ)_/¯",
+    "features": [
+      {
+        "name": "Sound play",
+        "description": "Genius allows users to annotate content"
+      }
+    ],
+    "desc": "As Kanye West when viral during 2015 VMA, I was meant to create a soundboard for each time he said \"Bruh\"",
     "tags": [
       "HTML",
       "CSS",
@@ -236,11 +340,23 @@
   },
   {
     "title": "Social Closet",
+    "headline": "A virtual closet",
+
     "theme": "WEB",
     "year": "2014",
     "link": "https://polyeezy.github.io/sliding-closet/",
     "images": [
       "images/portfolio/screenshot-1.png"
+    ],
+    "features": [
+      {
+        "name": "Parallax effect",
+        "description": "Genius allows users to annotate content"
+      },
+      {
+        "name": "Mobile Tilt",
+        "description": "Genius allows users to annotate content"
+      }
     ],
     "desc": "Back in the days, I used this as a footer in my old portfolio",
     "tags": [
@@ -251,13 +367,14 @@
   },
   {
     "title": "Dadzcover",
+    "headline" : "My first website",
     "theme": "WEB",
     "year": "2011",
     "link": "",
     "images": [
       "images/portfolio/dadzcover.png"
     ],
-    "desc": "My first ever web experimentation. Responsive was yet in the dictionnary",
+    "desc": "More a milestone thant a project, my first ever web experimentation. Responsive was yet in the dictionnary",
     "tags": [
       "HTML",
       "CSS",
@@ -340,7 +457,18 @@
     "images": [
       "images/portfolio/mpc_kanye.png"
     ],
-    "desc": "My first line of code. I was 14 :)",
+    "headline": "My first line of code",
+    "desc" : "When I was 14, I made this Flash MPC game. I splited Kanye West's Love Lockdown song and mapped it.",
+    "features": [
+      {
+        "name": "Loader",
+        "description": "Genius allows users to annotate content"
+      },
+      {
+        "name": "Sound play",
+        "description": "Genius allows users to annotate content"
+      }
+    ],
     "tags": [
       "FLASH CS5"
     ]
