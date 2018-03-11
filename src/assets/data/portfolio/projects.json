@@ -27,15 +27,29 @@
       "HTML",
       "CSS",
       "VUEJS",
-      "MATERIALIZECSS"
+      "MATERIALIZECSS",
+      "RESPONSIVE"
+
     ]
   },
   {
-    "title": "Streetr - Landing Page",
-    "theme": "MOBILE",
+    "title": "Streetr.eu",
+    "headline": "A pure HTML website",
+
+    "theme": "WEB",
     "year": "2018",
     "link": "streetr",
-    "desc": "Streetr landing page",
+    "features": [
+      {
+        "name": "Dynamic slider for each path",
+        "description": "Genius allows users to annotate content"
+      },
+      {
+        "name": "Mailchimp integration",
+        "description": "A co"
+      }
+    ],
+    "desc": "Streetr.eu is the landing page of the upcoming community based mobile application Streetr. It purpose is to evaluate Streetr's added value : sharing experiences into paths, by themes. On this page, you can explore few contributions, and access it through Google Maps.",
     "images": [
       "images/portfolio/streetr-1.png"
     ],
@@ -44,7 +58,10 @@
       "CSS",
       "JAVASCRIPT",
       "MATERIALIZECSS",
-      "Google Maps"
+      "GOOGLE MAPS",
+      "GOOGLE TAG MANAGER",
+      "FACEBOOK PIXEL",
+      "GOOGLE ANALYTICS"
     ]
   },
   {

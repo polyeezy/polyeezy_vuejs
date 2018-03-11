@@ -28,12 +28,9 @@
                     <span class="chip black white-text">{{project.year}}</span>
                 </div>
                 <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">{{project.name}}<i class="material-icons right">close</i></span>
-                    <p class="flow-text left-align">{{project.desc}}</p>
-                    <hr>
-                    <span v-for="(tag, index) in project.tags" v-bind:key="index" class="chip black white-text hoverable">{{tag}}</span>
-                    <hr>
-                    <button v-on:click="setItem(project)" class="green btn"><i class="material-icons right">link</i></button>
+                    <span class="card-title grey-text text-darken-4">{{project.title}}<i class="material-icons right">close</i></span>
+                    <p class="flow-text left-align">{{project.headline}}</p>
+                    <button v-on:click="setItem(project)" class="green btn">MORE ABOUT {{project.title}}<i class="material-icons right"></i></button>
                 </div>
             </div>
         </div>
@@ -42,7 +39,20 @@
     </div>
 </template>
 
-<style>
+<style scoped>
+
+    .responsive-img{
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+
+    .responsive-img:hover {
+        -moz-transform: scale(1.3);
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+
     .card-item {
         display: inline-block;
         margin-right: 10px;
@@ -72,6 +82,7 @@
                 categories : {},
                 item : {
                     show : false,
+                    reload : false,
                     data : {}
                 }
             }
@@ -94,11 +105,32 @@
         methods: {
 
             setItem(item){
+                $('.carousel.carousel-slider.portfolio-slider').carousel('destroy');
+
+                this.item.show = false;
+
+
+                $('html, body').animate({
+                    scrollTop:$('#portfolio').offset().top - 50
+                }, 'slow');
+
+
 
             this.item.data = item;
+            this.item.reload = true;
             this.item.show = true;
-            console.log(this.item);
+
+
+                setTimeout(
+                    function()
+                    {
+                        $('.carousel.carousel-slider.portfolio-slider').carousel({fullWidth: true, indicators: true});
+
+                    }, 500);
+
+
             },
+
 
             setCategory(cat) {
 

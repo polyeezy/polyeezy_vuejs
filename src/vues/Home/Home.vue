@@ -67,6 +67,9 @@
             this.startLoading();
 
             $(document).ready(function(){
+
+
+
                 $('.carousel.carousel-slider').carousel({fullWidth: true});
                 $('.tooltipped').tooltip({delay: 50});
 
