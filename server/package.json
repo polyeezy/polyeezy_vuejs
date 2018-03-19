@@ -1,0 +1,21 @@
+{
+  "name": "polyeezy_vuejs_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect": "^3.6.6",
+    "express": "^4.16.3",
+    "serve-static": "^1.13.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.0",
+    "eslint-plugin-node": "^6.0.1"
+  }
+}

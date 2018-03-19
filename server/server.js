@@ -1,8 +1,8 @@
-var express = require('express');
-var path = require('path');
+var connect = require('connect');
 var serveStatic = require('serve-static');
-app = express();
-app.use(serveStatic(__dirname + "/dist"));
-var port = process.env.PORT || 80;
-app.listen(port);
-console.log('server started '+ port);
+
+connect().use(serveStatic(__dirname + '/../app/dist')).listen(8080, function(){
+
+    console.log(__dirname + '../app/dist');
+    console.log('Server running on 8080...');
+});
