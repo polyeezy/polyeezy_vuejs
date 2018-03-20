@@ -1,13 +1,14 @@
-version: "2"
+version: '3'
 services:
-  node:
-    image: "node:8"
-    user: "node"
-    working_dir: /home/node/app
-    environment:
-      - NODE_ENV=production
-    volumes:
-      - ./:/home/node/app
-    ports:
-      - "80:80"
-    command: "bash -c 'npm install --prefix app && npm run build --prefix app  && npm install --prefix server && npm start --prefix server'"
+  server:
+      build: ./server
+      volumes:
+        - "./server:/usr/src/server"
+      ports:
+        - "8080:8080"
+  app:
+      build: ./app
+      depends_on:
+        - server
+      volumes:
+        - "./app:/usr/src/app"
